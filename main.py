@@ -6,12 +6,12 @@ import random_responses
 # Load JSON data
 def load_json(file):
     with open(file) as bot_responses:
-        print(f"Loaded '{file}' successfully!")
+        print(f"Welcome PETBOT !")
         return json.load(bot_responses)
 
 
 # Store JSON data
-response_data = load_json("bot.json")
+response_data = load_json("petbot.json")
 
 
 def get_response(input_string):

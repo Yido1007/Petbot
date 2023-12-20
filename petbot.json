@@ -11,8 +11,6 @@
     "bot_response": "See you later!",
     "required_words": []
   },
-
-
   {
     "response_type": "Cats Question",
     "user_input": ["What", "is", "cat","types"],
@@ -328,7 +326,7 @@
   {
     "response_type": "Golden",
     "user_input": ["What", "is", "golden", "lifespan"],
-    "bot_response": "The Golden Retriever breed usually has a life expectancy of between 10 and 12 years. Dec. However, factors such as the dog's genetic predisposition, health status, nutrition, exercise and general care can affect this period. With good care and regular veterinary checks, they can be supported to live a healthy life.Golden Retrievers may have a shorter life span than larger breeds. Therefore, it is important for owners to provide them with regular exercise, a balanced diet and veterinary control. In addition, since it is a breed that may be susceptible to genetic health problems, the genetic background of the dog taken from the breeder and the health history of his family should also be taken into account.",
+    "bot_response": "The average Golden Retriever lifespan is 10–12 years, and they're typically healthy dogs. However, due to poor breeding, some Golden Retrievers may develop a handful of health issues.",
     "required_words": ["golden", "lifespan"]
   },
   {
