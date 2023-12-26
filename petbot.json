@@ -430,5 +430,214 @@
     "user_input": ["What", "is", "Yellow Princess", "lifespan"],
     "bot_response": "The life expectancy of the yellow princess fish usually ranges from 5 to 10 years. Dec. This period can be affected by healthy care, proper water conditions and nutrition.",
     "required_words": ["yellow","princess", "lifespan"]
+  },
+  {
+    "response_type": "Nemo",
+    "user_input": ["What", "is", "nemo", "general characteristics "],
+    "bot_response": "Nemo fish is a colorful and small fish species. They live on coral reefs and are often in a symbiotic relationship with anemones. They are social creatures, live in groups and may consist of hierarchical groups consisting of one female and several males. They attract attention with their reproductive characteristics and colorful appearance. They gained wide popularity with the children's film 'Finding Nemo'.",
+    "required_words": ["nemo", "general"]
+  },
+
+  {
+    "response_type": "Nemo",
+    "user_input": ["What", "is", "nemo", "lifespan"],
+    "bot_response": "The life expectancy of Nemo fish in the natural environment varies from 6 to 10 years. Dec. However, those who live in an aquarium environment usually live up to 3 to 5 years.",
+    "required_words": ["nemo", "lifespan"]
+  },
+
+
+  {
+    "response_type": "Angelfish",
+    "user_input": ["What", "is", "angelfish", "general characteristics "],
+    "bot_response": "Angelfish is a species that is popular in the aquarium hobby. They are known for their beautiful colors and elegant structures. These fish, which live in the Amazon River basin, usually attract attention with their disc-shaped bodies. They should be fed in appropriate aquarium conditions and with a healthy diet. Angelfish usually show calm behavior, but they can be aggressive during breeding periods.",
+    "required_words": ["angel","fish", "general"]
+  },
+
+  {
+    "response_type": "Angelfish",
+    "user_input": ["What", "is", "angelfish", "lifespan"],
+    "bot_response": "The life expectancy of angelfish ranges from 8 to 12 years on average. Dec. December. Proper care, a healthy environment and regular check-ups can affect this period.",
+    "required_words": ["angel","fish", "lifespan"]
+  },
+
+  {
+    "response_type": "Scavenger fish",
+    "user_input": ["What", "is", "scavenger fish", "general characteristics "],
+    "bot_response": "Scavenger fish is a peaceful and harmonious fish species that undertakes the task of cleaning the aquarium floor. They live in groups, scavenge food scraps and usually feed on live or frozen shrimp, flake bait. Scavenger fish are popular in the aquarium hobby and attract attention with their colorful appearance.",
+    "required_words": ["scavenger", "fish", "general"]
+  },
+
+  {
+    "response_type": "Scavenger fish",
+    "user_input": ["What", "is", "scavenger fish", "lifespan"],
+    "bot_response": "The life expectancy of scavenger fish varies on average from 5 to 10 years, depending on the care conditions and genetic factors. Dec. This period can be extended in a suitable aquarium environment and with healthy nutrition.",
+    "required_words": ["scavenger", "fish", "lifespan"]
+  },
+
+  {
+    "response_type": "Discus fish",
+    "user_input": ["What", "is", "discus fish", "general characteristics "],
+    "bot_response": "Discus fish is a tropical freshwater fish belonging to the genus Symphysodon. It has a round and colorful body structure. They prefer large and high aquariums, have a social and peaceful structure. They require warm, clean water and a balanced diet. Jul. They are popular due to their variety of colors and elegant structures. They prefer to live in groups and exhibit special behaviors during breeding periods. Their maintenance requires care, so it is suitable for experienced aquarium hobbyists.",
+    "required_words": ["discus" , "fish", "general"]
+  },
+
+  {
+    "response_type": "Discus fish",
+    "user_input": ["What", "is", "discus fish", "lifespan"],
+    "bot_response": "The life expectancy of Decussate fish usually ranges from 10 to 15 years under appropriate care and conditions. Water quality, nutrition and genetic factors affect their life expectancy.",
+    "required_words": ["discus" , "fish", "lifespan"]
+  },
+
+  {
+    "response_type": "Betta fish",
+    "user_input": ["What", "is", "betta fish", "general characteristics "],
+    "bot_response": "Beta fish is a colorful and decorative freshwater fish with a long and thin body structure. It has a wide variety of colors. It prefers to live alone, is native to warm climates, feeds on high-protein feeds. Hiding places in aquariums are important. During the breeding periods, the males color and build nests. They need regular cleaning and balanced nutrition for a healthy life. It is a popular option for the home aquarium.",
+    "required_words": ["betta" , "fish", "general"]
+  },
+
+  {
+    "response_type": "Betta fish",
+    "user_input": ["What", "is", "betta fish", "lifespan"],
+    "bot_response": "The life expectancy of beta fish usually varies from 2 to 5 years, depending on the conditions of care. Dec. Proper care, clean water and a healthy diet affect this period. Jul.",
+    "required_words": ["betta" , "fish", "lifespan"]
+  },
+
+  {
+    "response_type": "Shark",
+    "user_input": ["What", "is", "shark", "general characteristics "],
+    "bot_response": "Pet sharks are usually fish kept by those interested in the aquarium hobby. They attract attention with their colorful and interesting structures. Attention should be paid to factors such as appropriate aquarium conditions, nutrition, social behavior and susceptibility to diseases. They provide aquarium owners with a fun observation experience, but they require care and responsibility.",
+    "required_words": ["shark", "general"]
+  },
+
+  {
+    "response_type": "Shark",
+    "user_input": ["What", "is", "shark", "lifespan"],
+    "bot_response": "The life expectancy of pet sharks varies depending on their species and conditions of care. They can usually live Decently for between 5 and 10 years under proper care. Large species live longer, while small species can live for a shorter time.",
+    "required_words": ["shark","lifespan"]
+  },
+
+  {
+    "response_type": "parrot fish",
+    "user_input": ["What", "is", "parrot fish", "general characteristics "],
+    "bot_response": "Parrotfish refers to cichlid fish, which usually have colorful and interesting body structures. They have bright shades of color and usually feed carnivorously. Attention should be paid to factors such as aquarium conditions, temperature, water quality and pH. They have reproductive abilities and can live healthily under proper care. It is one of the popular aquarium fish.",
+    "required_words": ["parrot" , "fish","general"]
+  },
+
+  {
+    "response_type": "parrot fish",
+    "user_input": ["What", "is", "parrot fish", "lifespan"],
+    "bot_response": "The life expectancy of Decapitated parrotfish varies on average from 10 to 15 years, depending on the conditions and species of care. Proper nutrition, clean water and regular care are important factors that affect their life expectancy.Jul.",
+    "required_words": ["parrot" , "fish","lifespan"]
+  },
+
+
+  {
+    "response_type": "Stingray",
+    "user_input": ["What", "is", "stingray", "general characteristics "],
+    "bot_response": "Stingray fish are fish with various shades of color, usually with flat and wide body structures. They live in saltwater or brakish aquatic aquariums. Their diet is usually herbivorous or omnivorous, and hiding places and suitable water conditions are important in their aquariums. Their social behavior varies from type to type, and some prefer to live in groups. Their reproductive behaviors and susceptibility to diseases also differ from species to species. It is an interesting and varied option for a home aquarium.",
+    "required_words": ["stingray","general"]
+  },
+
+  {
+    "response_type": "Stingray",
+    "user_input": ["What", "is", "stingray", "lifespan"],
+    "bot_response": "The life span of stingray fish varies depending on their species and care conditions. They can usually live between 5 and 15 years in a Decently cared for and healthy environment.",
+    "required_words": ["stingray","lifespan"]
+  },
+
+
+  {
+    "response_type": "Tetra fish",
+    "user_input": ["What", "is", "tetra fish", "general characteristics "],
+    "bot_response": "Tetra fish are small, elegant and colorful freshwater fish. They usually live in herds and have various shades of color. They prefer tropical waters and should have hiding places in plant aquariums. They are omnivorous feeders and can live in a healthy way when proper aquarium conditions are provided. It is one of the popular home aquarium fish due to its colors and vividness.",
+    "required_words": ["tetra" , "fish","general"]
+  },
+
+  {
+    "response_type": "Tetra fish",
+    "user_input": ["What", "is", "tetra fish", "lifespan"],
+    "bot_response": "The life expectancy of tetra fish usually ranges from 5 to 10 years. Dec. Proper care, healthy nutrition and clean water conditions can affect this period Jul.",
+    "required_words": ["tetra" , "fish","lifespan"]
+  },
+  {
+    "response_type": "Nightingale bird",
+    "user_input": ["What", "is", "nightingale bird", "general characteristics "],
+    "bot_response": "Nightingale birds are medium-sized birds known for their colorful feathers and powerful songs. There are usually different types found throughout the world. Their songs are melodic and they are widespread in various regions. Their diet is generally omnivorous, that is, they consume various nutrients such as fruits, insects, seeds and nectar. Nightingale species can be found in different geographical regions and also feed as domestic birds.",
+    "required_words": ["nightingale", "bird","general"]
+  },
+
+  {
+    "response_type": "Nightingale bird",
+    "user_input": ["What", "is", "nightingale bird", "lifespan"],
+    "bot_response": "The life expectancy of nightingale birds usually ranges from 5 to 10 years in their natural habitat. Dec. Domestic nightingale birds can live for longer periods of time under appropriate care and conditions.",
+    "required_words": ["nightingale" , "bird" ,"lifespan"]
+  },
+
+  {
+    "response_type": "Sultan parrot",
+    "user_input": ["What", "is", "sultan parrot", "general characteristics "],
+    "bot_response": "Sultan parrots are medium-sized, energetic parrots with colorful feathers. They are known for their good-natured, sociable and funny characters. They usually have feathers in white, black, orange, yellow and green colors. They are intelligent and trainable birds, they require proper care and attention. Their nutrition is usually provided with fruits, vegetables and parrot feeds. Reproduction is usually prevented when they are cared for as pets.",
+    "required_words": ["sultan", "parrot","general"]
+  },
+
+  {
+    "response_type": "Sultan parrot",
+    "user_input": ["What", "is", "sultan parrot", "lifespan"],
+    "bot_response": "The life expectancy of sultan parrots usually ranges from 20 to 30 years. Dec. With healthy care, proper nutrition and love, these parrots can have a long life.",
+    "required_words": ["sultan" , "parrot" ,"lifespan"]
+  },
+
+  {
+    "response_type": "Budgerigar",
+    "user_input": ["What", "is", "budgerigar", "general characteristics "],
+    "bot_response": "The parakeet is one of the small, colorful and popular domestic birds. It is often known as 'budgerigar' or 'budgie'. It is an intelligent, educable, social and loving bird species. Its colors are usually green, and there are also different color variations. Their nutrition is usually provided with special bird feeds, fresh fruits and vegetables. They live in a cage and like to interact with people. With proper care and love, they can have a long life.",
+    "required_words": ["budgerigar","general"]
+  },
+
+  {
+    "response_type": "Budgerigar",
+    "user_input": ["What", "is", "budgerigar", "lifespan"],
+    "bot_response": "The life expectancy of lovebirds usually ranges from 5 to 10 years Dec. With proper care and a healthy diet, they can live longer.",
+    "required_words": ["budgerigar","lifespan"]
+  },
+
+  {
+    "response_type": "Jako",
+    "user_input": ["What", "is", "jako", "general characteristics "],
+    "bot_response": "The Jako bird are medium-sized parrots, usually gray in color, referring to African gray parrots. There are two main species, steppe gray parrots and Congo gray parrots. They are extremely intelligent and trainable, able to develop vocabulary and learn various commands. They are social and form strong bonds with their owners. They usually feed on a variety of fruits, vegetables and parrot food. They have the ability to make loud noises and need to live in large cages or voles.",
+    "required_words": ["jako","general"]
+  },
+
+  {
+    "response_type": "Jako",
+    "user_input": ["What", "is", "jako", "lifespan"],
+    "bot_response": "The life expectancy of Deco birds usually ranges from 40 to 60 years. It is possible for them to live longer with proper care and a healthy diet.",
+    "required_words": ["jako","lifespan"]
+  },
+
+  {
+    "response_type": "Cockatoo",
+    "user_input": ["What", "is", "cockatoo", "general characteristics "],
+    "bot_response": "Cockatoo birds are usually large, fluffy and colorful birds. They are known for their high intelligence levels and social characters. There are different color variations such as white, pink, gray and black. They have the ability to imitate words and melodies, but some individuals can be stubborn. Their ability to make a loud noise, their need for social interaction and their long life are their prominent features. Proper care should be provided in spacious cages or voliers.",
+    "required_words": ["cockatoo","general"]
+  },
+
+  {
+    "response_type": "Cockatoo",
+    "user_input": ["What", "is", "cockatoo", "lifespan"],
+    "bot_response": "The life expectancy of cockatoo birds usually ranges from 40 to 60 years. Dec. With healthy care, proper nutrition and living conditions, these birds can have a long life.",
+    "required_words": ["cockatoo","lifespan"]
+  },
+  {
+    "response_type": "Conure",
+    "user_input": ["What", "is", "conure", "general characteristics "],
+    "bot_response": "Conure birds are medium-sized, brightly colored and social parrots. They have intelligent and educable characters. They are usually loud and loving birds. Their nutrition is provided by various seeds, fruits and vegetables. They are recommended to live in spacious cages or volleys and need regular social interaction. They can have a long life and form a strong bond with their owners.",
+    "required_words": ["conure","general"]
+  },
+  {
+    "response_type": "Conure",
+    "user_input": ["What", "is", "conure", "lifespan"],
+    "bot_response": "The life expectancy of conure birds usually ranges from 15 to 30 years. Dec. A healthy care, proper nutrition and living conditions support these birds to have a long life.",
+    "required_words": ["conure","lifespan"]
   }
 ]

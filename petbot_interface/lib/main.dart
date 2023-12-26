@@ -1,13 +1,13 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, deprecated_member_use
 
 import 'package:flutter/material.dart';
-import 'package:petbot_interface/screens/albumScreen.dart';
-import 'package:petbot_interface/screens/catAlbum.dart';
-import 'package:petbot_interface/screens/dogAlbum.dart';
-import 'package:petbot_interface/screens/faqScreen.dart';
-import 'package:petbot_interface/screens/homeScreen.dart';
-import 'package:petbot_interface/screens/settingScreen.dart';
-import 'package:petbot_interface/screens/welcomeScreen.dart';
+import '/screens/albumScreen.dart';
+import '/screens/catAlbum.dart';
+import '/screens/dogAlbum.dart';
+import '/screens/faqScreen.dart';
+import '/screens/homeScreen.dart';
+import '/screens/settingScreen.dart';
+import '/screens/welcomeScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,6 +34,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/home',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        backgroundColor: Color.fromRGBO(96, 114, 116, 1),
         useMaterial3: true,
       ),
     );

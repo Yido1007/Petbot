@@ -18,8 +18,11 @@ class SideMenu extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.asset(
-                    "assets/image/newlogo.png",
+                  InkWell(
+                    onTap: () => Navigator.pushNamed(context, "/home"),
+                    child: Image.asset(
+                      "assets/image/newlogo.png",
+                    ),
                   ),
                   SideMenuItem(
                     title: 'Cat Album',
@@ -43,7 +46,7 @@ class SideMenu extends StatelessWidget {
                     title: 'Dog Album',
                     image: "assets/Icon/dog.png",
                     onTap: () => Navigator.pushNamedAndRemoveUntil(
-                        context, "/change", (route) => false),
+                        context, "/dogAlbum", (route) => false),
                   ),
                 ],
               ),
