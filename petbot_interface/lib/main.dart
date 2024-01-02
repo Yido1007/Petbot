@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, deprecated_member_use
 
 import 'package:flutter/material.dart';
-import '/screens/albumScreen.dart';
 import '/screens/catAlbum.dart';
 import '/screens/dogAlbum.dart';
 import '/screens/faqScreen.dart';
@@ -24,7 +23,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         '/welcome': (context) => WelcomeScreen(),
-        '/album': (context) => AlbumScreen(),
         '/home': (context) => HomeScreen(),
         '/catAlbum': (context) => CatAlbum(),
         '/dogAlbum': (context) => DogAlbum(),

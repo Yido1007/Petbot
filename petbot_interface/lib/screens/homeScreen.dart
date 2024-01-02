@@ -22,8 +22,10 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           backgroundColor: Color.fromRGBO(96, 114, 116, 1),
           centerTitle: true,
+          // App title
           title: Text(
             "PETBOT",
+            // App title stylize
             style: TextStyle(
               color: Color.fromRGBO(250, 230, 183, 1),
               fontSize: 28,
@@ -32,6 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
         drawer: SideMenu(),
+        // For background color
         body: Container(
           decoration: BoxDecoration(
             color: Color.fromRGBO(96, 114, 116, 1),

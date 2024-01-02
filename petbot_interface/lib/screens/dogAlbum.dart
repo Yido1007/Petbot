@@ -2,11 +2,17 @@
 
 import 'package:flutter/material.dart';
 
+import '../widgets/albumImageItem.dart';
 import '../widgets/drawer.dart';
 
-class DogAlbum extends StatelessWidget {
+class DogAlbum extends StatefulWidget {
   const DogAlbum({super.key});
 
+  @override
+  State<DogAlbum> createState() => _DogAlbumState();
+}
+
+class _DogAlbumState extends State<DogAlbum> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -31,89 +37,40 @@ class DogAlbum extends StatelessWidget {
           decoration: BoxDecoration(
             color: Color.fromRGBO(96, 114, 116, 1),
           ),
-          child: Column(
-            children: [
-              AlbumImageItem(
-                petImage1: "assets/dog/golden.jpg",
-                petImage2: "assets/dog/golden2.jpg",
-                title: "Golden",
-              )
-            ],
+          child: SingleChildScrollView(
+            scrollDirection: Axis.vertical,
+            child: Column(
+              children: [
+                AlbumImageItem(
+                  petImage1: "assets/dog/golden.jpg",
+                  petImage2: "assets/dog/golden2.jpg",
+                  title: "Golden",
+                ),
+                AlbumImageItem(
+                  petImage1: "assets/dog/germanshepherd.jfif",
+                  petImage2: "assets/dog/germanshepherd2.jfif",
+                  title: "German Shepherd",
+                ),
+                AlbumImageItem(
+                  petImage1: "assets/dog/bulldog.jfif",
+                  petImage2: "assets/dog/bulldog2.jfif",
+                  title: "Bulldog",
+                ),
+                AlbumImageItem(
+                  petImage1: "assets/dog/labrador.jfif",
+                  petImage2: "assets/dog/labrador2.jfif",
+                  title: "Labrador",
+                ),
+                AlbumImageItem(
+                  petImage1: "assets/dog/huskey1.jfif",
+                  petImage2: "assets/dog/huskey2.jfif",
+                  title: "Huskey",
+                ),
+              ],
+            ),
           ),
         ),
       ),
-    );
-  }
-}
-
-class AlbumImageItem extends StatelessWidget {
-  final String petImage1;
-  final String petImage2;
-  final String title;
-
-  const AlbumImageItem({
-    super.key,
-    required this.petImage1,
-    required this.petImage2,
-    required this.title,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        Text(
-          title,
-          style: TextStyle(
-            color: Color.fromRGBO(250, 230, 183, 1),
-            fontSize: 28,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
-        SizedBox(
-          height: 20,
-        ),
-        Padding(
-          padding: EdgeInsets.symmetric(vertical: 15),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Container(
-                width: 200,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(30),
-                  border: Border.all(
-                    color: Color.fromRGBO(250, 230, 183, 1),
-                    width: 5,
-                  ),
-                ),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(25),
-                  child: Image.asset(petImage1),
-                ),
-              ),
-              Padding(
-                padding: EdgeInsets.symmetric(horizontal: 18),
-              ),
-              Container(
-                width: 200,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(30),
-                  border: Border.all(
-                    color: Color.fromRGBO(250, 230, 183, 1),
-                    width: 5,
-                  ),
-                ),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(25),
-                  child: Image.asset(petImage2),
-                ),
-              ),
-            ],
-          ),
-        ),
-      ],
     );
   }
 }

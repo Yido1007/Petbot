@@ -28,19 +28,19 @@ class SideMenu extends StatelessWidget {
                     title: 'Cat Album',
                     image: "assets/Icon/cat.png",
                     onTap: () => Navigator.pushNamedAndRemoveUntil(
-                        context, "/change", (route) => false),
+                        context, "/catAlbum", (route) => false),
                   ),
                   SideMenuItem(
                     title: 'Bird Album',
                     image: "assets/Icon/bird.png",
                     onTap: () => Navigator.pushNamedAndRemoveUntil(
-                        context, "/change", (route) => false),
+                        context, "/birdAlbum", (route) => false),
                   ),
                   SideMenuItem(
                     title: 'Fish Album',
                     image: "assets/Icon/fish.png",
                     onTap: () => Navigator.pushNamedAndRemoveUntil(
-                        context, "/change", (route) => false),
+                        context, "/fishAlbum", (route) => false),
                   ),
                   SideMenuItem(
                     title: 'Dog Album',
