@@ -66,7 +66,14 @@ class SideMenu extends StatelessWidget {
               ),
               title: "F.A.Q",
               onTap: () => Navigator.pushNamed(context, '/faq'),
-            )
+            ),
+            Text(
+              "Version 1.0.0",
+              style: TextStyle(
+                color: const Color.fromARGB(255, 39, 39, 39),
+                fontSize: 15,
+              ),
+            ),
           ],
         ),
       ),

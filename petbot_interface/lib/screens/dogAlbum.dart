@@ -66,6 +66,46 @@ class _DogAlbumState extends State<DogAlbum> {
                   petImage2: "assets/dog/huskey2.jfif",
                   title: "Huskey",
                 ),
+                AlbumImageItem(
+                  petImage1: "assets/dog/dalmatian.jfif",
+                  petImage2: "assets/dog/dalmatian2.jfif",
+                  title: "Dalmatian",
+                ),
+                AlbumImageItem(
+                  petImage1: "assets/dog/jackRussel.jfif",
+                  petImage2: "assets/dog/jackRussel2.jfif",
+                  title: "Jack Russel",
+                ),
+                AlbumImageItem(
+                  petImage1: "assets/dog/Pomeranian1.jfif",
+                  petImage2: "assets/dog/Pomeranian2.jfif",
+                  title: "Pomeranian",
+                ),
+                AlbumImageItem(
+                  petImage1: "assets/dog/Kangal.jfif",
+                  petImage2: "assets/dog/Kangal2.jfif",
+                  title: "Kangal",
+                ),
+                AlbumImageItem(
+                  petImage1: "assets/dog/Poodle1.jfif",
+                  petImage2: "assets/dog/Poodle2.jfif",
+                  title: "Poddle",
+                ),
+                AlbumImageItem(
+                  petImage1: "assets/dog/Chihuahua1.jfif",
+                  petImage2: "assets/dog/Chihuahua2.jfif",
+                  title: "Chihuahua",
+                ),
+                AlbumImageItem(
+                  petImage1: "assets/dog/Pitbull1.jfif",
+                  petImage2: "assets/dog/Pitbull2.jfif",
+                  title: "Pitbull",
+                ),
+                AlbumImageItem(
+                  petImage1: "assets/dog/EnglishCocker2.jfif",
+                  petImage2: "assets/dog/EnglishCocker1.jfif",
+                  title: "English Cocker Spaniel",
+                ),
               ],
             ),
           ),

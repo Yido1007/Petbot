@@ -27,9 +27,9 @@ class MyApp extends StatelessWidget {
         '/catAlbum': (context) => CatAlbum(),
         '/dogAlbum': (context) => DogAlbum(),
         '/setting': (context) => SettingScreen(),
-        '/faq': (context) => FAQScreen()
+        '/faq': (context) => FAQScreen(),
       },
-      initialRoute: '/home',
+      initialRoute: '/faq',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         backgroundColor: Color.fromRGBO(96, 114, 116, 1),
