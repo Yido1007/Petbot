@@ -86,7 +86,7 @@
   {
     "response_type": " Turkish Van Cat General",
     "user_input": ["What", "is","Turkish Van Cat ", "general characteristics "],
-    "bot_response": "The Van Cat is a special breed of cat known for its white fur and colorful spots. They are medium-sized, lively, energetic, and have a social structure. Their large, oval eyes are usually blue or forest green in color. These cats, who like to play with water, show a loyal, loving and playful attitude to their owners. They are usually easy to maintain and health problems can be minimized with a healthy diet. ",
+    "bot_response": "Van cat is a cat breed known for its white color, special 'Van pattern'. He has big, blue eyes. He is smart, energetic and enjoys playing with water. It has medium to large sizes and a slim build. Social and compatible with other pets. Fur care is limited to combing.",
     "required_words": ["turkish", "van" ,"cat" ,"general"]
   },
   {
@@ -116,13 +116,13 @@
   {
     "response_type": "Tuxedo Cat General",
     "user_input": ["What", "is","tuxedo cat ", "general characteristics "],
-    "bot_response": "Tuxedo cat is a name given to cats that usually have black and white colors. Among the characteristic features of these cats is the color pattern with white face, legs and breasts Decked out on their black bodies. They are of medium size and have an elegant build. Their fur is usually short or medium length, easy to care for. They can be intelligent, playful and sociable. A healthy diet, regular veterinary check-ups and exercise are important. However, each cat is individual, and general characteristics may vary from individual to individual.",
+    "bot_response": "Tuxedo cats are cats with a black and white color pattern, usually looking like tuxedos. Their size and character vary depending on the cat breed. They can be intelligent, sociable and loving. Fur care is limited to combing, basic care routines should be applied. Their trainability, although they are usually intelligent, is not like dogs.",
     "required_words": ["tuxedo", "cat" ,"general"]
   },
   {
     "response_type": "Tuxedo Cat Lifespan",
     "user_input": ["What", "is","tuxedo cat ", "lifespan"],
-    "bot_response": "The lifespan of a tuxedo cat, like any other cat, can vary based on factors such as genetics, overall health, diet, and living conditions. On average, tuxedo cats, or cats with a black and white coat resembling a tuxedo, can live anywhere from 12 to 20 years or more. With proper veterinary care, a balanced diet, and a safe and loving environment, many cats, including tuxedo cats, can enjoy a longer and healthier life.",
+    "bot_response": "Tuxedo cats, like most domestic cats, have a lifespan of about 15 years or a little longer. ",
     "required_words": ["tuxedo", "cat " ,"lifespan"]
   },
   {
@@ -157,8 +157,8 @@
   },
   {
     "response_type": "Sarman Cat General",
-    "user_input": ["What", "is","Sarman Cat ", "general characteristics "],
-    "bot_response": "Sarman cats are structurally large cats. Their feathers are long, dense and yellow or in yellow tones. Its eyes are in shades of yellow and yellow, matching the tones of its feathers. \n They do not have an aggressive nature. They are generally calm, social and harmonious cats. Nearly 80% of Sarman cats are male. They like to play games, but generally enjoy lying down during the day. \nSarman cats are prone to gaining weight because they are not very active and like to sleep. They like to sleep in quiet and cool places.",
+    "user_input": ["What", "is","Sarman Cat ", "general characteristics"],
+    "bot_response": "The Sarman cat is a cat breed that is large and strong, usually with orange or brown hair. They have a calm and playful character. They are at a moderate energy level and need fur care limited to combing. They have high intelligence and can be trained. A healthy diet and regular exercise are important.",
     "required_words": ["sarman" ,"general"]
   },
   {
@@ -167,77 +167,35 @@
     "bot_response": "Cats eat:\n1-Cat Food: Quality cat food specially formulated for house cats can meet all their nutritional needs. A balanced combination between dry and wet cat food can be used.\n2-Balanced Nutrition: In addition to protein, your cat's diet should also include fats, vitamins and minerals. Commercial cat foods usually contain these nutrients in a balanced manner.\n3-Portion Control: It is important to exercise portion control appropriate to your cat's age, breed, weight and activity level. It's important to check your cat's weight regularly to prevent excess weight or weight loss.\n4-Delicious But Healthy Snacks: You can give your cat healthy snacks occasionally, but these should complement the main meals of cat food, and attention should be paid to weight control.",
     "required_words": ["what", "cats", "eat"]
   },
-
-  {
-    "response_type": "Birds question",
-    "user_input": ["What", "is", "bird", "types"],
-    "bot_response": "Bird types are: Nightingale, Budgerigar, Quarrion Bird, Grey Parrot, Cockatoo Parrot\nSun Conure Parrot, Macaw Parrot, Senegal Parrot, Red-Lored Parrot, Canary, Finch Bird\nHow can I help you more",
-    "required_words": ["what", "bird", "types"]
-  },
-
-  {
-    "response_type": "Ightingale",
-    "user_input": ["Can", "describe", "nightingale"],
-    "bot_response": "1-It is one of the most well-known bird species worldwide with its beautiful singing.\n2-Especially these sounds of Nightingales singing at night are unlike any other sounds.\n3-The size of the nightingales is around 16 cm. It is often likened to a Redbird.\n4-The throat part of these birds, which have large black eyes, has a pale color.\n5-They are migratory birds that usually live in Mediterranean countries and central-southern European countries.\n6-Unlike other birds, they roam on the ground instead of living in branches.7-Nightingales live until they are 1 to 5 years old",
-    "required_words": ["describe", "nightingale"]
-  },
-
-  {
-    "response_type": "Ightingale feeding",
-    "user_input": ["What", "nightingale", "feed on"],
-    "bot_response": "nightingales feed on\n1-Fresh fruits (such as bananas, apples, grapes)\n2-Vegetables (such as lettuce, carrots, broccoli),\n3-Dried fruits (such as grapes, apricots, dried mulberries) and different cereals (such as barley, wheat, oats).\n4-High-protein foods also play an important role in the nutrition of nightingale birds.\n6-Bird food, hemp seeds, oatmeal, currants, nuts and insect larvae help birds meet their protein needs.",
-    "required_words": ["feed", "nightingale"]
-  },  
-
-  {
-    "response_type": "Nightingale cage",
-    "user_input": ["How", "should", "the", "cage of","nightingale"],
-    "bot_response": "A suitable cage for nightingale birds should be spacious and ventilated.\nThe bars of the cage should be thick enough for the beaks of nightingale birds to fit.\nThere should be food and beverage containers, toys and a bathtub inside the cage.",
-    "required_words": ["how", "cage", "nightingale"]
-  },
-
-  {
-    "response_type": "Budgerigar",
-    "user_input": ["Can", "describe", "budgerigar"],
-    "bot_response": "1-They are on average 18 cm long, weigh 30-40 grams.\n2-Men are talkative, females don't like to talk much.\n3-They have an incubation period of 18 to 21 days.\n4-Nightingales live until they are 1 to 5 years old.\n5- Men are usually happy, extroverted.",
-    "required_words": ["describe", "budgerigar"]
-  },
-
-  {
-    "response_type": "Budgerigar feeding",
-    "user_input": ["What", "Budgerigar", "feed on"],
-    "bot_response": "Budgerigar feed on:\n1-Cereals(such as Wheat, barley, rye and oats)\n2-Herbs(such as grass)\n3-Vegetables.",
-    "required_words": ["feed", "budgerigar"]
-  },
   {
     "response_type": "Dog question",
     "user_input": ["What", "is", "dog", "types"],
-    "bot_response": "Dogs are: These are the popular types of dogs, and there are many types that are not written here.\nGerman shepherd, bulldog, labrador, golden, siberian husky, beagle, alaskan husky, poodle,\nchihuahua, English Cocker Spaniel, kangal, shiba, jack russell, Pomeranian, pitbull, dalmatian, rotviver ",
+    "bot_response": "Dogs are: German shepherd, bulldog, labrador, golden, siberian husky, beagle, alaskan husky, poodle,\nchihuahua, English Cocker Spaniel, kangal, shiba, jack russell, Pomeranian, pitbull, dalmatian, rotviver ",
     "required_words": ["what", "dog", "types"]
   },
   {
     "response_type": "German Shepherd",
-    "user_input": ["What", "is", "german shepherd", "general characteristics"],
+    "user_input": ["What", "is", "german" ,"shepherd", "general characteristics"],
     "bot_response": "Dogs are: These are the popular types of dogs, and there are many types that are not written here.\nGerman shepherd, bulldog, labrador, golden, siberian husky, beagle, alaskan husky, poodle,\nchihuahua, English Cocker Spaniel, kangal, shiba, jack russell, Pomeranian, pitbull, dalmatian, rotviver ",
     "required_words": ["german","shepherd","general"]
   },
   {
     "response_type": "German Shepherd",
-    "user_input": ["What", "is", "german shepherd", "lifespan"],
-    "bot_response": ". Its average lifespan is 9-13 years, which concurs with the timeline for most dogs. However, a range of factors may affect its livelihood, and it is essential to pay attention to these concerns to prolong their lives ",
+    "user_input": ["What", "is", "german" ,"shepherd", "lifespan"],
+    "bot_response": "Its average lifespan is 9-13 years, which concurs with the timeline for most dogs. However, a range of factors may affect its livelihood, and it is essential to pay attention to these concerns to prolong their lives ",
     "required_words": ["german", "shepherd", "lifespan"]
   }, 
   {
-    "response_type": "Buldog General",
-    "user_input": ["What", "is","buldog ", "general characteristics "],
+    "response_type": "Bulldog General",
+    "user_input": ["What", "is","bulldog ", "general characteristics "],
     "bot_response": "The Bulldog is a medium-sized, muscular and compact dog breed. It has a physically strong build, with a short nose and wide mouth.\n Its short hair provides easy care. They have a loyal, affectionate and balanced character. Although they are energetic, moderate exercise is sufficient. \n They may be prone to respiratory problems and skin sensitivity. Regular care, proper nutrition and veterinary control are important for a healthy life.",
-    "required_words": ["buldog" ,"general"]
+    "required_words": ["bulldog" ,"general"]
   },
   {
-    "response_type": "Buldog Lifespan",
-    "user_input": ["What", "is","buldog ", "lifespan"],
+    "response_type": "Bulldog Lifespan",
+    "user_input": ["What", "is","bulldog ", "lifespan"],
     "bot_response": "A healthy English bulldog has an average life expectancy of 10-11 years. The median lifespan is 8.4 years for the English bulldog.\n The French bulldog's life expectancy is 10-12 years. The American Bulldog's life expectancy is 10-15 years.",
-    "required_words": ["buldog" ,"lifespan"]
+    "required_words": ["bulldog" ,"lifespan"]
   },  {
     "response_type": "Labrador",
     "user_input": ["What", "is", "Labrador", "general characteristics"],
@@ -252,7 +210,7 @@
   },  {
     "response_type": "Huskey",
     "user_input": ["What", "is", "huskey", "general characteristics","siberian" ,"wolf"],
-    "bot_response": "The Siberian Wolf is a medium-sized, strong and durable dog breed. He has a social, friendly and energetic nature. Although they are intelligent, they have independence tendencies, so they require patience and consistency in education. Their thick double-layered plumage includes the need for regular maintenance and seasonal moulting. Although they are healthy, they may face genetic conditions such as eye problems and hip dysplasia. Their tendency to howl and their energy levels are high. It is important for potential owners to understand their specific needs and energy levels.",
+    "bot_response": "Husky is a medium-sized, strong, energetic and sociable dog breed. Their thick double-ply fur is usually in gray, black, red and white colors, and they have almond-shaped blue, green or brown eyes. They can be intelligent and independent, their education requires patience. They are suitable for cold climates and require regular grooming.",
     "required_words": ["huskey", "general"]
   },
   {
@@ -263,7 +221,7 @@
   },  {
     "response_type": "Dalmatian",
     "user_input": ["What", "is", "dalmatian", "general characteristics"],
-    "bot_response": "The Dalmatian is a medium-sized dog breed with black or brown spots. They are friendly, energetic and smart. They can be educated, but their socialization is important. Since they have short hairs, there is usually no problem of excessive shedding. They require regular exercise and maintenance. Among the health problems may be hearing problems. Dec. Its history dates back to their use to pull horse-drawn fire trucks.",
+    "bot_response": "Dalmatians are an energetic, lively and medium-large dog breed. They have black/brown speckles on white fur. They require a moderate level of energy and require regular exercise. They are family friendly, compatible with children and intelligent. They are easy to care for, their short fur does not require regular grooming. Early socialization is important.",
     "required_words": ["dalmatian","general"]
   },
   {
@@ -274,19 +232,19 @@
   },  {
     "response_type": "Jack Russell",
     "user_input": ["What", "is", "jack russel", "general characteristics"],
-    "bot_response": "The Jack Russell Terrier is a small, energetic and intelligent dog breed. He is playful, friendly and loyal to his owners. Although they are trainable, they may have stubbornness from time to time. Their care is usually easy thanks to their short hairs. Regular exercise is important because they have high energy levels. Although they are usually healthy, they may be predisposed to some genetic health problems.",
+    "bot_response": "The Jack Russell Terrier is a small to medium-sized, energetic and intelligent dog. Their short fur provides easy care. He has a brave and lively character, regular exercise and early socialization are important. Depending on the owner, it can be compatible with other animals and children.",
     "required_words": ["jack","russel","general"]
   },
   {
     "response_type": "Jack Russell",
     "user_input": ["What", "is", "jack russel", "lifespan"],
-    "bot_response": "Dalmatian dogs typically have a lifespan of around 10 to 13 years.",
+    "bot_response": "These dogs are a healthy breed with an average lifespan of 13/16 years.",
     "required_words": ["jack","russel", "lifespan"]
   },
   {
     "response_type": "Pomeranian",
     "user_input": ["What", "is", "pomeranian", "general characteristics"],
-    "bot_response": "The Pomeranian is a miniature sized, lively and loving dog breed. Despite their small size, they are brave and energetic. Although they are smart, they can sometimes be stubborn. Dense and silky hairs require regular maintenance. Although they are usually healthy, they may be predisposed to some genetic health problems. They are popular house dogs and originate from the Pomeranian region of Germany.",
+    "bot_response": "A Pomeranian is a miniature, lively and cute dog. It has a small size (1.5-3 kg), thick double-ply fur. Lively and curious, with medium energy. It depends on the owner, compatible with children and other pets. Fur requires care and basic training.",
     "required_words": ["pomeranian","general"]
   },
   {
@@ -326,7 +284,7 @@
   {
     "response_type": "Golden",
     "user_input": ["What", "is", "golden", "lifespan"],
-    "bot_response": "The average Golden Retriever lifespan is 10–12 years, and they're typically healthy dogs. However, due to poor breeding, some Golden Retrievers may develop a handful of health issues.",
+    "bot_response": "The average Golden Retriever lifespan is 10/12 years, and they're typically healthy dogs. However, due to poor breeding, some Golden Retrievers may develop a handful of health issues.",
     "required_words": ["golden", "lifespan"]
   },
   {
@@ -444,15 +402,12 @@
     "bot_response": "The life expectancy of Nemo fish in the natural environment varies from 6 to 10 years. Dec. However, those who live in an aquarium environment usually live up to 3 to 5 years.",
     "required_words": ["nemo", "lifespan"]
   },
-
-
   {
     "response_type": "Angelfish",
     "user_input": ["What", "is", "angelfish", "general characteristics "],
     "bot_response": "Angelfish is a species that is popular in the aquarium hobby. They are known for their beautiful colors and elegant structures. These fish, which live in the Amazon River basin, usually attract attention with their disc-shaped bodies. They should be fed in appropriate aquarium conditions and with a healthy diet. Angelfish usually show calm behavior, but they can be aggressive during breeding periods.",
     "required_words": ["angel","fish", "general"]
   },
-
   {
     "response_type": "Angelfish",
     "user_input": ["What", "is", "angelfish", "lifespan"],
@@ -544,8 +499,6 @@
     "bot_response": "The life span of stingray fish varies depending on their species and care conditions. They can usually live between 5 and 15 years in a Decently cared for and healthy environment.",
     "required_words": ["stingray","lifespan"]
   },
-
-
   {
     "response_type": "Tetra fish",
     "user_input": ["What", "is", "tetra fish", "general characteristics "],
@@ -590,7 +543,7 @@
   {
     "response_type": "Budgerigar",
     "user_input": ["What", "is", "budgerigar", "general characteristics "],
-    "bot_response": "The parakeet is one of the small, colorful and popular domestic birds. It is often known as 'budgerigar' or 'budgie'. It is an intelligent, educable, social and loving bird species. Its colors are usually green, and there are also different color variations. Their nutrition is usually provided with special bird feeds, fresh fruits and vegetables. They live in a cage and like to interact with people. With proper care and love, they can have a long life.",
+    "bot_response": "Budgerigars are small, colorful and energetic domestic birds. Social, loving and communication skills are developed. Since they are intelligent, they can receive basic education, and some of them can show the ability to speak. They are at an intermediate energy level and have a need to fly. Regular hair care, bathing and a healthy diet are important.",
     "required_words": ["budgerigar","general"]
   },
 
@@ -604,7 +557,7 @@
   {
     "response_type": "Jako",
     "user_input": ["What", "is", "jako", "general characteristics "],
-    "bot_response": "The Jako bird are medium-sized parrots, usually gray in color, referring to African gray parrots. There are two main species, steppe gray parrots and Congo gray parrots. They are extremely intelligent and trainable, able to develop vocabulary and learn various commands. They are social and form strong bonds with their owners. They usually feed on a variety of fruits, vegetables and parrot food. They have the ability to make loud noises and need to live in large cages or voles.",
+    "bot_response": "Jako parrots are medium-sized parrots with colorful feathers and showy head feathers. They have an active, intelligent and social character. They are known for their melodic singing abilities. They require basic obedience training and regular maintenance. They need mental stimulation and physical exercise.",
     "required_words": ["jako","general"]
   },
 
@@ -618,7 +571,7 @@
   {
     "response_type": "Cockatoo",
     "user_input": ["What", "is", "cockatoo", "general characteristics "],
-    "bot_response": "Cockatoo birds are usually large, fluffy and colorful birds. They are known for their high intelligence levels and social characters. There are different color variations such as white, pink, gray and black. They have the ability to imitate words and melodies, but some individuals can be stubborn. Their ability to make a loud noise, their need for social interaction and their long life are their prominent features. Proper care should be provided in spacious cages or voliers.",
+    "bot_response": "Cockatoo birds are usually large, fluffy and colorful birds. They are known for their high intelligence levels and social characters. There are different color variations such as white, pink, gray and black. They have the ability to imitate words and melodies, but some individuals can be stubborn. Their ability to make a loud noise, their need for social interaction and their long life are their prominent features",
     "required_words": ["cockatoo","general"]
   },
 
