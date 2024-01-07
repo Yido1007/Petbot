@@ -603,5 +603,50 @@
     "user_input": ["What", "is", "conure", "lifespan"],
     "bot_response": "The life expectancy of conure birds usually ranges from 15 to 30 years. Dec. A healthy care, proper nutrition and living conditions support these birds to have a long life.",
     "required_words": ["conure","lifespan"]
+  },  {
+    "response_type": "The Senegal parrot",
+    "user_input": ["What", "is", "The Senegal parrot", "general characteristics "],
+    "bot_response": "The Senegal parrot is a small parrot species that lives in Central and West Africa. It is about 23-24 cm long and usually has green upper feathers, yellow or orange lower feathers. They are intelligent and social animals, can be trained as pets and can be loving friends. Their diet usually consists of fruits, vegetables and seeds. Care as a pet requires regular veterinary checks and proper nutrition. Having fun with mind games and toys can help them live a healthy life.",
+    "required_words": ["The","Senegal","parrot","general"]
+  },
+
+
+
+  {
+    "response_type": "The Senegal parrot",
+    "user_input": ["What", "is", "The Senegal parrot", "lifespan"],
+    "bot_response": "The average life expectancy of Senegalese parrots ranges from 20 to 30 years. Dec. This period may increase with appropriate care and health measures.",
+    "required_words": ["The","Senegal","parrot","lifespan"]
+  },
+
+  {
+    "response_type": "Amazona parrots ",
+    "user_input": ["What", "is", "Amazona parrots ", "general characteristics "],
+    "bot_response": "Amazona parrots are medium-sized parrots with a variety of colors, usually living in the tropical regions of Central and South America. They are known as intelligent and trainable animals. Their diet usually includes fruits, vegetables, seeds and sometimes insects. They require proper care, a rich environment and regular veterinary checks. They can form strong bonds with their owners, and some species can develop speech abilities.",
+    "required_words": ["The","Senegal","parrot","general"]
+  },
+
+
+
+  {
+    "response_type": "Amazona parrots ",
+    "user_input": ["What", "is", "Amazona parrots ", "lifespan"],
+    "bot_response": "The average life expectancy of Amazona Decapitations ranges from 25 to 50 years. This period varies depending on the type of type and the care provided.",
+    "required_words": ["Amazona","parrots","lifespan"]
+  },
+
+ {
+    "response_type": "Canaries ",
+    "user_input": ["What", "is", "Canaries", "general characteristics "],
+    "bot_response": "Canaries are small and colorful birds. They are usually fed as pets and are known for their melodious crowing. They can be intelligent and sociable. Their nutrition is usually provided with seeds, fruits and vegetables. Clean water, proper cage and regular maintenance are important Jul to maintain their health. They are popular pet birds, but it is important to pay attention to their needs.",
+    "required_words": ["Canaries","general"]
+  },
+
+
+  {
+    "response_type": "Canaries",
+    "user_input": ["What", "is", "Canaries", "lifespan"],
+    "bot_response": "The average life expectancy of canaries varies from 7 to 10 years. Dec. This period may vary depending on the quality of care, genetic factors and general health status.",
+    "required_words": ["Canaries","lifespan"]
   }
 ]
