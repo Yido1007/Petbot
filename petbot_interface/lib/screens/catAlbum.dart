@@ -1,7 +1,7 @@
 // ignore_for_file: file_names, prefer_const_literals_to_create_immutables, prefer_const_constructors
 
+//Import widgets
 import 'package:flutter/material.dart';
-
 import '../widgets/albumImageItem.dart';
 import '../widgets/drawer.dart';
 
@@ -19,9 +19,12 @@ class _CatAlbumState extends State<CatAlbum> {
       child: Scaffold(
         appBar: AppBar(
           iconTheme: IconThemeData(
+            // Appbar background color
             color: Color.fromRGBO(250, 230, 183, 1),
           ),
+          // Appbackground color
           backgroundColor: Color.fromRGBO(96, 114, 116, 1),
+          // Title and title style
           centerTitle: true,
           title: Text(
             "PETBOT",
@@ -32,9 +35,12 @@ class _CatAlbumState extends State<CatAlbum> {
             ),
           ),
         ),
+        // Sidemenu widget
         drawer: SideMenu(),
+        // Body
         body: Container(
           decoration: BoxDecoration(
+            //App background color
             color: Color.fromRGBO(96, 114, 116, 1),
           ),
           child: SingleChildScrollView(
@@ -96,7 +102,7 @@ class _CatAlbumState extends State<CatAlbum> {
                   petImage1: "assets/cat/bombay1.jfif",
                   petImage2: "assets/cat/bombay2.jfif",
                   title: "Bombay",
-                )
+                ),
               ],
             ),
           ),

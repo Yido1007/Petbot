@@ -174,6 +174,12 @@
     "required_words": ["what", "dog", "types"]
   },
   {
+    "response_type": "what do dogs eat",
+    "user_input": ["What", "dogs","eat"],
+    "bot_response": "Dogs eat: Dog Food: 1-Special foods selected according to age, size, breed and health conditions.2-Homemade Dishes: Suitable homemade dishes prepared under veterinary control.3-Fresh Meat and Fish: Fresh protein sources such as cooked chicken, red meat or fish.4-Vegetables and Fruits: Healthy vegetables and fruits (non-toxic).5-Bones and Chewing Products: Bones and chewing products suitable for natural tooth cleaning.",
+    "required_words": ["what", "dogs", "eat"]
+  },
+  {
     "response_type": "German Shepherd",
     "user_input": ["What", "is", "german" ,"shepherd", "general characteristics"],
     "bot_response": "Dogs are: These are the popular types of dogs, and there are many types that are not written here.\nGerman shepherd, bulldog, labrador, golden, siberian husky, beagle, alaskan husky, poodle,\nchihuahua, English Cocker Spaniel, kangal, shiba, jack russell, Pomeranian, pitbull, dalmatian, rotviver ",
@@ -327,7 +333,14 @@
     "user_input": ["What", "is", "fish", "types"],
     "bot_response": "Fishs are: goldfish, neon tetra, clownfish, guppy, yellow princess ",
     "required_words": ["what", "fish", "types"]
-  },{
+  },
+  {
+    "response_type": "what do fish eat",
+    "user_input": ["What", "fish","eat"],
+    "bot_response": "Fish eat: 1-Goldfish meals: Commercial baits in flake, pellet or tablet form.2-Live meals: Tube worms, Artemia, fly larvae, etc.3-Frozen meals: Frozen bloodworm, Artemia, tube worms, etc.4-Dry meals: Trademark baits in flake or pellet form.5-Vegetable and Algae Tablets: for fish fed on a herbivorous or mixed diet.6-Fresh and Boiled Vegetables: Spinach, peas, etc.",
+    "required_words": ["what", "fish", "eat"]
+  },
+  {
     "response_type": "Neon Tetras",
     "user_input": ["What", "is", "Neon Tetras", "general characteristics"],
     "bot_response": "The neon tetra is a colorful and small freshwater aquarium fish. They attract attention with their transparent bodies and bright blue and red color stripes.\n They live in flocks and generally exhibit harmonious and peaceful behavior. A popular option for freshwater aquariums, it is compatible with plants and suitable water conditions. They have an omnivorous diet and can withstand healthy forces.",
@@ -484,8 +497,6 @@
     "bot_response": "The life expectancy of Decapitated parrotfish varies on average from 10 to 15 years, depending on the conditions and species of care. Proper nutrition, clean water and regular care are important factors that affect their life expectancy.Jul.",
     "required_words": ["parrot" , "fish","lifespan"]
   },
-
-
   {
     "response_type": "Stingray",
     "user_input": ["What", "is", "stingray", "general characteristics "],

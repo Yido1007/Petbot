@@ -22,12 +22,13 @@ class _FAQScreen extends State<FAQScreen> {
         backgroundColor: Color.fromRGBO(96, 114, 116, 1),
         appBar: AppBar(
           iconTheme: IconThemeData(
+            // Appbar background color
             color: Color.fromRGBO(250, 230, 183, 1),
           ),
           // App Theme
           backgroundColor: Color.fromRGBO(96, 114, 116, 1),
           centerTitle: true,
-          // App Title
+          //Title and title style
           title: Text(
             "PETBOT",
             style: TextStyle(
@@ -37,7 +38,7 @@ class _FAQScreen extends State<FAQScreen> {
             ),
           ),
         ),
-        // SideBar
+        // Sidemenu widget
         drawer: SideMenu(),
         body: Accordion(
           // Style All Accordions
@@ -63,19 +64,26 @@ class _FAQScreen extends State<FAQScreen> {
           children: [
             // 1'st FAQ
             AccordionSection(
+              // Accordion start positon
               isOpen: false,
+              // Header left icon
               leftIcon:
+                  //Header left icon color
                   const Icon(Icons.check_box_outlined, color: Colors.black),
+              // Header right icon
               rightIcon: const Icon(
                 Icons.keyboard_arrow_down,
+                // Header right icon color
                 color: Colors.black,
                 size: 30,
               ),
               // Header Background Color
               // Vertical
               contentVerticalPadding: 50,
+              // Header title
               header: const Text(
                 'What does this bot aim at',
+                // Header title style
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 18,
@@ -85,15 +93,18 @@ class _FAQScreen extends State<FAQScreen> {
               content: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  // Opened body icon style
                   const Icon(
                     Icons.label_important_outline_rounded,
                     color: Color.fromRGBO(96, 114, 116, 1),
                     size: 50,
                   ).paddingOnly(right: 20),
                   const Flexible(
+                    // Main Text
                     child: Text(
                       "The main goal of our bot is that people can easily access information for our animal friends and quickly eliminate the question marks in their minds.",
                       maxLines: 4,
+                      // Main text style
                       style: TextStyle(
                         color: Color.fromRGBO(96, 114, 116, 1),
                         fontSize: 21,
@@ -106,19 +117,26 @@ class _FAQScreen extends State<FAQScreen> {
             ),
             // 2'nd FAQ
             AccordionSection(
+              // Accordion start position
               isOpen: false,
+              // Header left icon
               leftIcon:
+                  // Header left icon color
                   const Icon(Icons.check_box_outlined, color: Colors.black),
+              // Header right icon
               rightIcon: const Icon(
                 Icons.keyboard_arrow_down,
+                // Header right icon color
                 color: Colors.black,
                 size: 30,
               ),
               // Header Background Color
               // Vertical
               contentVerticalPadding: 50,
+              // Header title
               header: const Text(
                 'How to use the bot',
+                // Header title style
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 18,
@@ -128,12 +146,14 @@ class _FAQScreen extends State<FAQScreen> {
               content: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  // Opened body icon style
                   const Icon(
                     Icons.label_important_outline_rounded,
                     color: Color.fromRGBO(96, 114, 116, 1),
                     size: 50,
                   ).paddingOnly(right: 20),
                   Flexible(
+                    // Text span
                     child: RichText(
                       text: TextSpan(
                         children: [
@@ -146,6 +166,7 @@ class _FAQScreen extends State<FAQScreen> {
                               fontWeight: FontWeight.bold,
                             ),
                           ),
+                          // Question 1
                           TextSpan(
                             text:
                                 'The first of our questions is : how long does he live.',
@@ -163,6 +184,7 @@ class _FAQScreen extends State<FAQScreen> {
                               fontWeight: FontWeight.bold,
                             ),
                           ),
+                          // Quesiton 2
                           TextSpan(
                             text:
                                 "what are the general characteristic features",

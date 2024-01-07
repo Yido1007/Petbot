@@ -19,9 +19,11 @@ class _DogAlbumState extends State<DogAlbum> {
       child: Scaffold(
         appBar: AppBar(
           iconTheme: IconThemeData(
+            // Appbar background color
             color: Color.fromRGBO(250, 230, 183, 1),
           ),
           backgroundColor: Color.fromRGBO(96, 114, 116, 1),
+          // Title and title style
           centerTitle: true,
           title: Text(
             "PETBOT",
@@ -32,14 +34,18 @@ class _DogAlbumState extends State<DogAlbum> {
             ),
           ),
         ),
+        // Sidemenu widget
         drawer: SideMenu(),
+        // Body
         body: Container(
           decoration: BoxDecoration(
+            //App background color
             color: Color.fromRGBO(96, 114, 116, 1),
           ),
           child: SingleChildScrollView(
             scrollDirection: Axis.vertical,
             child: Column(
+              // Dogs Image
               children: [
                 AlbumImageItem(
                   petImage1: "assets/dog/golden.jpg",
