@@ -16,6 +16,8 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        // App background
+        backgroundColor: Color.fromRGBO(96, 114, 116, 1),
         appBar: AppBar(
           iconTheme: IconThemeData(
             color: Color.fromRGBO(250, 230, 183, 1),
@@ -34,11 +36,48 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
         drawer: SideMenu(),
-        // For background color
-        body: Container(
-          decoration: BoxDecoration(
-            color: Color.fromRGBO(96, 114, 116, 1),
-          ),
+        body: Column(
+          children: [
+            Expanded(
+              child: Container(),
+            ),
+            //Text field padding
+            Padding(
+              padding: const EdgeInsets.all(13.0),
+              // Text field
+              child: TextField(
+                // Text field cursor color
+                cursorColor: Color.fromRGBO(222, 208, 182, 1),
+                style: TextStyle(
+                  // Text field input text color
+                  color: Color.fromRGBO(250, 230, 183, 1),
+                ),
+                // Whole input decoration
+                decoration: InputDecoration(
+                  enabledBorder: UnderlineInputBorder(
+                    // Border color
+                    borderSide: BorderSide(
+                      color: Color.fromRGBO(250, 230, 183, 1),
+                    ),
+                  ),
+                  // Placeholder
+                  labelText: "Ask me something...",
+                  // Placeholder color
+                  labelStyle: TextStyle(
+                    color: Color.fromRGBO(250, 230, 183, 1),
+                  ),
+                  // Focus border and color
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: const BorderSide(
+                      color: Color.fromRGBO(250, 183, 183, 1),
+                    ),
+                    // Border radius
+                    borderRadius: BorderRadius.circular(35.0),
+                  ),
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );

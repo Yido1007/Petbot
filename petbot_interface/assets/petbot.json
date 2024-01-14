@@ -1,0 +1,652 @@
+[
+  {
+    "response_type": "Greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "Greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "Cats Question",
+    "user_input": ["What", "is", "cat","types"],
+    "bot_response": "Cat types are: British Shorthair, Scottish Fold, Russian Blue, Maine Coon, Persian Cat,\nTurkish Van Cat, Bombay, Siamese Cat, Tuxedo Cat, Tabby, Calico, Sarman Cat",
+    "required_words": ["what","cat" ,"types"]
+  },
+  {
+    "response_type": "British Shorthair Lifespan",
+    "user_input": ["What", "is", "british" ,"shorthair","lifespan"],
+    "bot_response": " The average lifespan of the British Shorthair is a robust 12/20 years. The breed doesn't have many genetic or common medical\nconditions but, like any cat breed, some common health issues can affect them.",
+    "required_words": ["british","shorthair" ,"lifespan"]
+  }, 
+  {
+    "response_type": "British Shorthair General",
+    "user_input": ["What", "is", "british shorthair","general characteristics "],
+    "bot_response": "British Shorthair cats are a breed of short-haired cats that are medium to large in size, muscular, have a round head and wide round eyes.\nThey usually have a dense coat of mail and large eyes of turquoise or gold color. Among its characteristic features is a calm, caring and healthy structure. These cats usually have a variety of colors and patterns.",
+    "required_words": ["british", "shorthair" ,"general"]
+  },
+  {
+    "response_type": "Scottish Fold Lifespan",
+    "user_input": ["What", "is", "scottish" ,"fold","lifespan"],
+    "bot_response": " What is the Average Scottish Fold Lifespan? On average, these cats live to be 11/15 years old. This number can be affected by many factors such as your cat's living environment, their daily health and exercise routine, and whether they have any pre-existing health conditions.",
+    "required_words": ["scottish" ,"fold" ,"lifespan"]
+  },
+  {
+    "response_type": "Scottish Fold General",
+    "user_input": ["What", "is", "scottish", "fold","general characteristics "],
+    "bot_response": "Scottish Fold cats are a medium-sized cat breed known for their folding ears. They have round heads, big eyes and usually a calm, loving personality. Their short or medium-length dense plumage can be of various colors and patterns. Due to their genetic characteristics, their ears can be folded. They have a soft and playful structure, but attention should be paid to genetic health problems.",
+    "required_words": ["scottish" ,"fold" ,"general"]
+  },
+  {
+    "response_type": "Russian Blue Lifespan",
+    "user_input": ["What", "is", "russian blue","lifespan"],
+    "bot_response": "The Russian blue has a lifespan of 15 to 20 years in age. It is not uncommon for them to live on average to 18 years of age. At one time, this breed was also known as a Maltese.",
+    "required_words": ["russian" ,"blue" ,"lifespan"]
+  },
+  {
+    "response_type": "Russianblue General",
+    "user_input": ["What", "is", "russian blue","general characteristics"],
+    "bot_response": " Russian Blue cats are usually known for their elegant, blue-gray colored fur. They are medium-sized, calm, timid, but attached to their owners and have an intelligent structure. They are not game lovers, they prefer a quiet lifestyle more. They are usually easy to care for, feel happy indoors, and usually have low-pitched meowing.",
+    "required_words": ["russian","blue" ,"general"]
+  },
+  {
+    "response_type": "Maine Coon Lifespan",
+    "user_input": ["What", "is", "maine coon","lifespan"],
+    "bot_response": "The average lifespan of a Maine Coon is 12-15 years.They are healthy and hardy cats, but, like all animals, life expectancy depends on general health, diet, and exercise. Many Maine Coons have lived to be 20 years old. Rubble, the oldest Maine Coon in the world, was 31",
+    "required_words": ["maine", "coon" ,"lifespan"]
+  },
+  {
+    "response_type": "Maine Coon General",
+    "user_input": ["What", "is", "maine" ,"coon", "general characteristics "],
+    "bot_response": "Maine Coon cats are usually large, muscular and long-haired cats. Prominent features include a wide, rounded Decapitation, large and oval eyes, a long nose and wide, erect ears. Their body structures are strong and long, especially their hind legs are longer and stronger. Their plumage is usually dense, long and water resistant.",
+    "required_words": ["maine", "coon" ,"general"]
+  },
+  {
+    "response_type": "Persian Cat Lifespan",
+    "user_input": ["What", "is","persian cat", "lifespan"],
+    "bot_response": "Persian cats usually live between 12 and 16 years, but with good care and Decrepitude, they can live longer. The lifespan of cats may vary depending on various factors such as genetic factors, nutrition, living conditions and general health.",
+    "required_words": ["persian", "cat" ,"lifespan"]
+  },
+  {
+    "response_type": "Persian Cat General",
+    "user_input": ["What", "is","persian cat", "general characteristics "],
+    "bot_response": "Persian cats are a cat breed known for their long hair, big eyes and elegant structure. They generally have a calm and responsive temperament. They require long coat care, and regular veterinary checks and a clean environment are important. They come in different color options and are generally loving cats suitable for keeping at home.",
+    "required_words": ["persian", "cat" ,"general"]
+  },
+  {
+    "response_type": "Turkish Van Cat Lifespan",
+    "user_input": ["What", "is", "general characteristics "],
+    "bot_response": "The Turkish Van cat lifespan is normal for many cat breeds. They live an average of 12 to 17 years. This means you should be prepared for a long life with your pet before adopting one.",
+    "required_words": ["turkish", "van", "cat " ,"lifespan"]
+  },
+  {
+    "response_type": " Turkish Van Cat General",
+    "user_input": ["What", "is","Turkish Van Cat ", "general characteristics "],
+    "bot_response": "Van cat is a cat breed known for its white color, special 'Van pattern'. He has big, blue eyes. He is smart, energetic and enjoys playing with water. It has medium to large sizes and a slim build. Social and compatible with other pets. Fur care is limited to combing.",
+    "required_words": ["turkish", "van" ,"cat" ,"general"]
+  },
+  {
+    "response_type": "Bombay General",
+    "user_input": ["What", "is","bombay cat", "general characteristics"],
+    "bot_response": "Bombay cats are a breed known for their black fur and bright green eyes. They are medium-sized, muscular, friendly and social cats. Although it has short hair, it requires regular grooming. They are known for their playful nature and ability to get along well with children. They are healthy and loving house cats. ",
+    "required_words": ["bombay" ,"general"]
+  },
+  {
+    "response_type": "Bombay Lifespan",
+    "user_input": ["What", "is","bombay cat", "lifespan"],
+    "bot_response": "Bombay cats live can be determined by many factors, but an average lifespan is anywhere from 12 to 18 years—some Bombays have even lived to be in their 20s. ",
+    "required_words": ["bombay" ,"lifespan"]
+  },
+  {
+    "response_type": "Siamese Cat Lifespan",
+    "user_input": ["What", "is","siamese cat ", "lifespan"],
+    "bot_response": "Siamese. As its name suggests, the Siamese cat originated from Thailand (formerly called Siam). Siamese cats live up to 15 years on average, some can reach 20 years old. People love Siamese cats because they are sociable, playful, and entertaining. ",
+    "required_words": ["siamese", "cat" ,"lifespan"]
+  },
+  {
+    "response_type": "Siamese Cat General",
+    "user_input": ["What", "is","siamese cat ", "general characteristics "],
+    "bot_response": "Siamese cats are a cat breed that is elegant and slender, with a generally light-colored body pattern and dark spots. They attract attention with their large, blue eyes and loud meows. They are sensitive and social cats that are loyal to their owners. Even though they have short hair, they maintain their health with regular grooming and active games.",
+    "required_words": ["siamese", "cat" ,"general"]
+  },
+  {
+    "response_type": "Tuxedo Cat General",
+    "user_input": ["What", "is","tuxedo cat ", "general characteristics "],
+    "bot_response": "Tuxedo cats are cats with a black and white color pattern, usually looking like tuxedos. Their size and character vary depending on the cat breed. They can be intelligent, sociable and loving. Fur care is limited to combing, basic care routines should be applied. Their trainability, although they are usually intelligent, is not like dogs.",
+    "required_words": ["tuxedo", "cat" ,"general"]
+  },
+  {
+    "response_type": "Tuxedo Cat Lifespan",
+    "user_input": ["What", "is","tuxedo cat ", "lifespan"],
+    "bot_response": "Tuxedo cats, like most domestic cats, have a lifespan of about 15 years or a little longer. ",
+    "required_words": ["tuxedo", "cat " ,"lifespan"]
+  },
+  {
+    "response_type": "Tabby Lifespan",
+    "user_input": ["What", "is"," tabby", "lifespan"],
+    "bot_response": "The average lifespan of the tabby cat breed is around 15 to 20 years.",
+    "required_words": ["tabby" ,"lifespan"]
+  },
+  {
+    "response_type": "Tabby General",
+    "user_input": ["What", "is","tabby", "general characteristics "],
+    "bot_response": "Tabby cats are domestic cats that come in a variety of colors and patterns. They are of average size and generally healthy. They are intelligent, docile and have a social temperament. Grooming needs depend on coat length. They are suitable for family environments and can get along well with children and other pets.",
+    "required_words": ["tabby" ,"general"]
+  },
+  {
+    "response_type": "Calico Lifespan",
+    "user_input": ["What", "is","calico ", "lifespan"],
+    "bot_response": "Calico cats generally live between 12 and 16 years.",
+    "required_words": ["calico" ,"lifespan"]
+  },
+  {
+    "response_type": "Calico General",
+    "user_input": ["What", "is","calico", "general characteristics "],
+    "bot_response": "Calico cats are domestic cats that generally have a three-color (black, white, orange) coat pattern. They are usually seen in the female gender. They are of average size, have an intelligent and loving temperament. Grooming needs depend on coat length. They tend to suit the family environment and get along well with children.",
+    "required_words": ["calico" ,"general"]
+  },
+  {
+    "response_type": "Sarman Cat Lifespan",
+    "user_input": ["What", "is","Sarman Cat ", "lifespan"],
+    "bot_response": "Sarman cats are one of the most common cat breeds worldwide. Many people admire them with the colors of their feathers and eyes. The life expectancy of Decapitated cats varies between 10 and 18 years on average.",
+    "required_words": ["sarman" ,"lifespan"]
+  },
+  {
+    "response_type": "Sarman Cat General",
+    "user_input": ["What", "is","Sarman Cat ", "general characteristics"],
+    "bot_response": "The Sarman cat is a cat breed that is large and strong, usually with orange or brown hair. They have a calm and playful character. They are at a moderate energy level and need fur care limited to combing. They have high intelligence and can be trained. A healthy diet and regular exercise are important.",
+    "required_words": ["sarman" ,"general"]
+  },
+  {
+    "response_type": "what do cats eat",
+    "user_input": ["What", "cats","eat"],
+    "bot_response": "Cats eat:\n1-Cat Food: Quality cat food specially formulated for house cats can meet all their nutritional needs. A balanced combination between dry and wet cat food can be used.\n2-Balanced Nutrition: In addition to protein, your cat's diet should also include fats, vitamins and minerals. Commercial cat foods usually contain these nutrients in a balanced manner.\n3-Portion Control: It is important to exercise portion control appropriate to your cat's age, breed, weight and activity level. It's important to check your cat's weight regularly to prevent excess weight or weight loss.\n4-Delicious But Healthy Snacks: You can give your cat healthy snacks occasionally, but these should complement the main meals of cat food, and attention should be paid to weight control.",
+    "required_words": ["what", "cats", "eat"]
+  },
+  {
+    "response_type": "Dog question",
+    "user_input": ["What", "is", "dog", "types"],
+    "bot_response": "Dogs are: German shepherd, bulldog, labrador, golden, siberian husky, beagle, alaskan husky, poodle,\nchihuahua, English Cocker Spaniel, kangal, shiba, jack russell, Pomeranian, pitbull, dalmatian, rotviver ",
+    "required_words": ["what", "dog", "types"]
+  },
+  {
+    "response_type": "what do dogs eat",
+    "user_input": ["What", "dogs","eat"],
+    "bot_response": "Dogs eat: Dog Food: 1-Special foods selected according to age, size, breed and health conditions.2-Homemade Dishes: Suitable homemade dishes prepared under veterinary control.3-Fresh Meat and Fish: Fresh protein sources such as cooked chicken, red meat or fish.4-Vegetables and Fruits: Healthy vegetables and fruits (non-toxic).5-Bones and Chewing Products: Bones and chewing products suitable for natural tooth cleaning.",
+    "required_words": ["what", "dogs", "eat"]
+  },
+  {
+    "response_type": "German Shepherd",
+    "user_input": ["What", "is", "german" ,"shepherd", "general characteristics"],
+    "bot_response": "Dogs are: These are the popular types of dogs, and there are many types that are not written here.\nGerman shepherd, bulldog, labrador, golden, siberian husky, beagle, alaskan husky, poodle,\nchihuahua, English Cocker Spaniel, kangal, shiba, jack russell, Pomeranian, pitbull, dalmatian, rotviver ",
+    "required_words": ["german","shepherd","general"]
+  },
+  {
+    "response_type": "German Shepherd",
+    "user_input": ["What", "is", "german" ,"shepherd", "lifespan"],
+    "bot_response": "Its average lifespan is 9-13 years, which concurs with the timeline for most dogs. However, a range of factors may affect its livelihood, and it is essential to pay attention to these concerns to prolong their lives ",
+    "required_words": ["german", "shepherd", "lifespan"]
+  }, 
+  {
+    "response_type": "Bulldog General",
+    "user_input": ["What", "is","bulldog ", "general characteristics "],
+    "bot_response": "The Bulldog is a medium-sized, muscular and compact dog breed. It has a physically strong build, with a short nose and wide mouth.\n Its short hair provides easy care. They have a loyal, affectionate and balanced character. Although they are energetic, moderate exercise is sufficient. \n They may be prone to respiratory problems and skin sensitivity. Regular care, proper nutrition and veterinary control are important for a healthy life.",
+    "required_words": ["bulldog" ,"general"]
+  },
+  {
+    "response_type": "Bulldog Lifespan",
+    "user_input": ["What", "is","bulldog ", "lifespan"],
+    "bot_response": "A healthy English bulldog has an average life expectancy of 10-11 years. The median lifespan is 8.4 years for the English bulldog.\n The French bulldog's life expectancy is 10-12 years. The American Bulldog's life expectancy is 10-15 years.",
+    "required_words": ["bulldog" ,"lifespan"]
+  },  {
+    "response_type": "Labrador",
+    "user_input": ["What", "is", "Labrador", "general characteristics"],
+    "bot_response": "The Labrador Retriever is a medium to large sized, friendly and intelligent dog breed. They come in yellow, black and chocolate colors. They are harmonious, energetic and loyal. Thanks to their high trainability, they are used as a guide dog, search and rescue dog and service dog.Dec. They are generally healthy, but they may be predisposed to genetic problems such as dysplasia, eye problems, and obesity. Their care includes regular exercise and a balanced diet.",
+    "required_words": ["labrador", "general"]
+  },
+  {
+    "response_type": "Labrador",
+    "user_input": ["What", "is", "Labrador", "lifespan"],
+    "bot_response": "Labradors are one of the longest-living dog breeds. The median longevity for a Labrador is about 10 to 14 years. The color of the Labrador can also play a role in lifespan. On average, chocolate Labradors live between 10 to 11 years",
+    "required_words": ["labrador","lifespan"]
+  },  {
+    "response_type": "Huskey",
+    "user_input": ["What", "is", "huskey", "general characteristics","siberian" ,"wolf"],
+    "bot_response": "Husky is a medium-sized, strong, energetic and sociable dog breed. Their thick double-ply fur is usually in gray, black, red and white colors, and they have almond-shaped blue, green or brown eyes. They can be intelligent and independent, their education requires patience. They are suitable for cold climates and require regular grooming.",
+    "required_words": ["huskey", "general"]
+  },
+  {
+    "response_type": "Huskey",
+    "user_input": ["What", "is", "huskey", "lifespan","siberian" ,"wolf"],
+    "bot_response": "Although some Siberian Huskies can live up to 16 years, the average lifespan is 12 to 15 years. In all breeds, including huskies, females live slightly longer than males",
+    "required_words": ["huskey","lifespan"]
+  },  {
+    "response_type": "Dalmatian",
+    "user_input": ["What", "is", "dalmatian", "general characteristics"],
+    "bot_response": "Dalmatians are an energetic, lively and medium-large dog breed. They have black/brown speckles on white fur. They require a moderate level of energy and require regular exercise. They are family friendly, compatible with children and intelligent. They are easy to care for, their short fur does not require regular grooming. Early socialization is important.",
+    "required_words": ["dalmatian","general"]
+  },
+  {
+    "response_type": "Dalmatian",
+    "user_input": ["What", "is", "dalmatian", "lifespan"],
+    "bot_response": "Dalmatian dogs typically have a lifespan of around 10 to 13 years.",
+    "required_words": ["dalmatian", "lifespan"]
+  },  {
+    "response_type": "Jack Russell",
+    "user_input": ["What", "is", "jack russel", "general characteristics"],
+    "bot_response": "The Jack Russell Terrier is a small to medium-sized, energetic and intelligent dog. Their short fur provides easy care. He has a brave and lively character, regular exercise and early socialization are important. Depending on the owner, it can be compatible with other animals and children.",
+    "required_words": ["jack","russel","general"]
+  },
+  {
+    "response_type": "Jack Russell",
+    "user_input": ["What", "is", "jack russel", "lifespan"],
+    "bot_response": "These dogs are a healthy breed with an average lifespan of 13/16 years.",
+    "required_words": ["jack","russel", "lifespan"]
+  },
+  {
+    "response_type": "Pomeranian",
+    "user_input": ["What", "is", "pomeranian", "general characteristics"],
+    "bot_response": "A Pomeranian is a miniature, lively and cute dog. It has a small size (1.5-3 kg), thick double-ply fur. Lively and curious, with medium energy. It depends on the owner, compatible with children and other pets. Fur requires care and basic training.",
+    "required_words": ["pomeranian","general"]
+  },
+  {
+    "response_type": "Pomeranian",
+    "user_input": ["What", "is", "pomeranian", "lifespan"],
+    "bot_response": "the average lifespan of the Pomeranian is 12-16 years. This is a fairly typical life expectancy for a pooch of this size, similar to other small dog breeds like the Maltese and toy poodle. Be aware that small and toy breeds tend to live longer than larger dogs on average",
+    "required_words": ["pomeranian","lifespan"]
+  },
+  {
+    "response_type": "Kangal",
+    "user_input": ["What", "is", "kangal", "lifespan"],
+    "bot_response": "The lifespan of Kangal dogs, one of the indispensable parts of Anatolian lands, varies between 12 and 15 years, even though they are a large breed.",
+    "required_words": ["kangal", "lifespan"]
+  },
+  {
+    "response_type": "Kangal",
+    "user_input": ["What", "is", "kangal", "general characteristics"],
+    "bot_response": "Kangal is a large and strong shepherd dog breed originating from Turkiye. It has a large build and short, dense fur that is usually yellowish, brown or grey. \n It has an intelligent, independent and protective character. He may be quiet and calm, but he is fiercely loyal and protective of his family. It has an innate protective instinct, so socialization and training are important.",
+    "required_words": ["kangal", "general"]
+  },  {
+    "response_type": "Poodle",
+    "user_input": ["What", "is", "poodle", "lifespan"],
+    "bot_response": "The Standard Poodle is a generally healthy breed with an average lifespan of 12-15 years.",
+    "required_words": ["poodle", "lifespan"]
+  },
+  {
+    "response_type": "Poodle",
+    "user_input": ["What", "is", "poodle", "general characteristics"],
+    "bot_response": "The Poodle is an elegant and intelligent dog breed. They can be found in standard, physical and toy sizes. \n They have curly and woolly fur and generally have colors such as white, black, brown and grey. They are known for being very intelligent and trainable. They have a friendly, affectionate and social nature.",
+    "required_words": ["poodle", "general"]
+  },  {
+    "response_type": "Golden",
+    "user_input": ["What", "is", "golden", "general characteristics "],
+    "bot_response": "Golden Retriever is a friendly, loyal, smart, trainable, energetic, playful and family-oriented dog breed. It is known for its golden plumage, curiosity about water and healthy structure. He gets along well with families and usually has a loving personality.",
+    "required_words": ["golden", "general"]
+  },
+  {
+    "response_type": "Golden",
+    "user_input": ["What", "is", "golden", "lifespan"],
+    "bot_response": "The average Golden Retriever lifespan is 10/12 years, and they're typically healthy dogs. However, due to poor breeding, some Golden Retrievers may develop a handful of health issues.",
+    "required_words": ["golden", "lifespan"]
+  },
+  {
+    "response_type": "Chihuahua",
+    "user_input": ["What", "is", "chihuahua", "general characteristics "],
+    "bot_response": "The Chihuahua is a small, lively, energetic and loyal dog breed. They can be stimulating and protective. They have short-haired or long-haired varieties. They are educable, have social needs and usually live a healthy long life.",
+    "required_words": ["chihuahua", "general"]
+  },
+  {
+    "response_type": "Chihuahua",
+    "user_input": ["What", "is", "chihuahua", "lifespan"],
+    "bot_response": "The average Chihuahua lifespan is between 12-18 years. Many Chihuahuas live to see their 18th birthday, and some of them even get to the age of 20. ",
+    "required_words": ["chihuahua", "lifespan"]
+  },
+  {
+    "response_type": "Pitbull",
+    "user_input": ["What", "is", "pitbull", "general characteristics "],
+    "bot_response": "Pitbull is a term that usually refers to strong, muscular dog breeds, such as the American Pit Bull Terrier, American Staffordshire Terrier and Staffordshire Bull Terrier. These dogs can be loving, loyal and energetic when they are well socialized and trained correctly. They need an active lifestyle and should be wary of prejudices caused by misunderstandings. Like every dog, they have individual personalities and can become reliable friends with the right care.",
+    "required_words": ["pitbull", "general"]
+  },
+  {
+    "response_type": "Pitbull",
+    "user_input": ["What", "is", "pitbull", "lifespan"],
+    "bot_response": "The life expectancy of Pitbull dogs can usually vary from 12 to 16 years. Dec. However, this period may vary depending on various factors such as genetic factors, health status, nutrition, exercise and general care. Regular veterinary checks, a balanced nutrition program and proper physical activity are important for them to live a healthy life. Due to the reputation of the breed, it may be necessary to be more careful about some health problems, so a good genetic history and regular health check are important.",
+    "required_words": ["pitbull", "lifespan"]
+  },  {
+    "response_type": "English Cocker Spaniel",
+    "user_input": ["What", "is", "English Cocker Spaniel", "general characteristics "],
+    "bot_response": "The English Cocker Spaniel is a hunting dog breed that originated in England. He has a medium-sized, lively, loving and intelligent structure. He gets along well with children and is open to education. He needs daily exercise. Long hairs require regular care. The life expectancy usually ranges from 12 to 15 years. Dec.",
+    "required_words": ["english","cocker" ,"spaniel", "general"]
+  },
+  {
+    "response_type": "English Cocker Spaniel",
+    "user_input": ["What", "is", "English Cocker Spaniel", "lifespan"],
+    "bot_response": "The English Cocker Spaniel dogs usually have a life expectancy of between 12 and 15 years. Dec. However, various factors such as genetic factors, health status, nutrition, exercise patterns and general care can affect this period. Regular veterinary check-ups, a balanced nutrition program and proper care are important for them to live a healthy life.",
+    "required_words": ["english", "cocker", "spaniel", "lifespan"]
+  },  
+  {
+    "response_type": "Fish question",
+    "user_input": ["What", "is", "fish", "types"],
+    "bot_response": "Fishs are: goldfish, neon tetra, clownfish, guppy, yellow princess ",
+    "required_words": ["what", "fish", "types"]
+  },
+  {
+    "response_type": "what do fish eat",
+    "user_input": ["What", "fish","eat"],
+    "bot_response": "Fish eat: 1-Goldfish meals: Commercial baits in flake, pellet or tablet form.2-Live meals: Tube worms, Artemia, fly larvae, etc.3-Frozen meals: Frozen bloodworm, Artemia, tube worms, etc.4-Dry meals: Trademark baits in flake or pellet form.5-Vegetable and Algae Tablets: for fish fed on a herbivorous or mixed diet.6-Fresh and Boiled Vegetables: Spinach, peas, etc.",
+    "required_words": ["what", "fish", "eat"]
+  },
+  {
+    "response_type": "Neon Tetras",
+    "user_input": ["What", "is", "Neon Tetras", "general characteristics"],
+    "bot_response": "The neon tetra is a colorful and small freshwater aquarium fish. They attract attention with their transparent bodies and bright blue and red color stripes.\n They live in flocks and generally exhibit harmonious and peaceful behavior. A popular option for freshwater aquariums, it is compatible with plants and suitable water conditions. They have an omnivorous diet and can withstand healthy forces.",
+    "required_words": ["neon" ,"tetras", "general"]
+  },
+{
+    "response_type": "Neon Tetras",
+    "user_input": ["What", "is", "Neon Tetras", "lifespan"],
+    "bot_response": "The average lifespan of Neon Tetras in the wild is around eight years old. However, in a carefully controlled aquarium, this can be increased to 4-5 years. Once you factor in water changes and feeding schedules, these fish can live up to 6-7 years.",
+    "required_words": ["neon", "tetras", "lifespan"]
+  },
+{
+    "response_type": "Clownfish",
+    "user_input": ["What", "is", "Clownfish", "general characteristics "],
+    "bot_response": "Nemo fish is a small, colorful and gregarious fish.\n They are orange in color with white stripes and black edges. Those that live in shallow waters among marine corals. \nThey are popular in saltwater aquariums, require moderate care and are fed live or frozen food. A healthy individual can live for a long time, but requires proper care and experience.",
+    "required_words": ["clownfish", "general"]
+  },
+{
+    "response_type": "Clownfish",
+    "user_input": ["What", "is", "Clownfish", "lifespan"],
+    "bot_response": "Clownfish live about 8 years in the wild and 12 years or more in a protected environment.",
+    "required_words": ["clownfish", "lifespan"]
+  },
+  {
+    "response_type": "Goldfish",
+    "user_input": ["What", "is", "Goldfish", "general characteristics "],
+    "bot_response": "Goldfish are colorful and decorative freshwater fish. They come in a variety of species and colors, they are especially noted for their long, rounded tails. Clean water, proper filtration and special feeds are important for aquarium maintenance.Jul. They are social creatures and can be kept in harmonious groups. They may be prone to procreation and may be prone to some health problems. They can live in a healthy way with good care and regular observation.",
+    "required_words": ["goldfish", "general"]
+  },
+  {
+    "response_type": "Goldfish",
+    "user_input": ["What", "is", "Goldfish", "lifespan"],
+    "bot_response": "The lifespan of goldfish usually ranges from 6 to 10 years. Dec. This period depends on many factors such as health, care, genetic factors and water conditions. Fish that live under good care and favorable conditions can live healthily for longer.",
+    "required_words": ["goldfish", "lifespan"]
+  },
+  {
+    "response_type": "Guppy",
+    "user_input": ["What", "is", "Guppy", "general characteristics "],
+    "bot_response": "Guppy fish is a small, hardy and colorful freshwater fish. It is native to Mexico and Central America. It has various colors and patterns. Exhibits a peaceful and social behavior. He has the ability to reproduce quickly. Balanced water conditions and proper nutrition are important in aquarium maintenance. It is popular for both beginners and experienced hobbyists.",
+    "required_words": ["guppy", "general"]
+  },
+  {
+    "response_type": "Guppy",
+    "user_input": ["What", "is", "Guppy", "lifespan"],
+    "bot_response": "The life expectancy of guppy fish usually ranges from 2 to 5 years. Dec. This period can be affected by healthy care, proper water conditions and nutrition.",
+    "required_words": ["guppy", "lifespan"]
+  }
+  ,
+  {
+    "response_type": "Yellow Princess",
+    "user_input": ["What", "is", "Yellow Princess", "general characteristics "],
+    "bot_response": "The Yellow Princess Fish is a freshwater aquarium fish, usually belonging to the proportion species, with a golden yellow color and a round body. Their size can vary up to 15 cm. They exhibit a peaceful behavior, and proper care and nutrition are essential for a healthy life. They can breed under favorable conditions and are usually one of the preferred colorful fish in aquarium hobby.",
+    "required_words": ["yellow","princess", "general"]
+  },
+
+  {
+    "response_type": "Yellow Princess",
+    "user_input": ["What", "is", "Yellow Princess", "lifespan"],
+    "bot_response": "The life expectancy of the yellow princess fish usually ranges from 5 to 10 years. Dec. This period can be affected by healthy care, proper water conditions and nutrition.",
+    "required_words": ["yellow","princess", "lifespan"]
+  },
+  {
+    "response_type": "Nemo",
+    "user_input": ["What", "is", "nemo", "general characteristics "],
+    "bot_response": "Nemo fish is a colorful and small fish species. They live on coral reefs and are often in a symbiotic relationship with anemones. They are social creatures, live in groups and may consist of hierarchical groups consisting of one female and several males. They attract attention with their reproductive characteristics and colorful appearance. They gained wide popularity with the children's film 'Finding Nemo'.",
+    "required_words": ["nemo", "general"]
+  },
+
+  {
+    "response_type": "Nemo",
+    "user_input": ["What", "is", "nemo", "lifespan"],
+    "bot_response": "The life expectancy of Nemo fish in the natural environment varies from 6 to 10 years. Dec. However, those who live in an aquarium environment usually live up to 3 to 5 years.",
+    "required_words": ["nemo", "lifespan"]
+  },
+  {
+    "response_type": "Angelfish",
+    "user_input": ["What", "is", "angelfish", "general characteristics "],
+    "bot_response": "Angelfish is a species that is popular in the aquarium hobby. They are known for their beautiful colors and elegant structures. These fish, which live in the Amazon River basin, usually attract attention with their disc-shaped bodies. They should be fed in appropriate aquarium conditions and with a healthy diet. Angelfish usually show calm behavior, but they can be aggressive during breeding periods.",
+    "required_words": ["angel","fish", "general"]
+  },
+  {
+    "response_type": "Angelfish",
+    "user_input": ["What", "is", "angelfish", "lifespan"],
+    "bot_response": "The life expectancy of angelfish ranges from 8 to 12 years on average. Dec. December. Proper care, a healthy environment and regular check-ups can affect this period.",
+    "required_words": ["angel","fish", "lifespan"]
+  },
+
+  {
+    "response_type": "Scavenger fish",
+    "user_input": ["What", "is", "scavenger fish", "general characteristics "],
+    "bot_response": "Scavenger fish is a peaceful and harmonious fish species that undertakes the task of cleaning the aquarium floor. They live in groups, scavenge food scraps and usually feed on live or frozen shrimp, flake bait. Scavenger fish are popular in the aquarium hobby and attract attention with their colorful appearance.",
+    "required_words": ["scavenger", "fish", "general"]
+  },
+
+  {
+    "response_type": "Scavenger fish",
+    "user_input": ["What", "is", "scavenger fish", "lifespan"],
+    "bot_response": "The life expectancy of scavenger fish varies on average from 5 to 10 years, depending on the care conditions and genetic factors. Dec. This period can be extended in a suitable aquarium environment and with healthy nutrition.",
+    "required_words": ["scavenger", "fish", "lifespan"]
+  },
+
+  {
+    "response_type": "Discus fish",
+    "user_input": ["What", "is", "discus fish", "general characteristics "],
+    "bot_response": "Discus fish is a tropical freshwater fish belonging to the genus Symphysodon. It has a round and colorful body structure. They prefer large and high aquariums, have a social and peaceful structure. They require warm, clean water and a balanced diet. Jul. They are popular due to their variety of colors and elegant structures. They prefer to live in groups and exhibit special behaviors during breeding periods. Their maintenance requires care, so it is suitable for experienced aquarium hobbyists.",
+    "required_words": ["discus" , "fish", "general"]
+  },
+
+  {
+    "response_type": "Discus fish",
+    "user_input": ["What", "is", "discus fish", "lifespan"],
+    "bot_response": "The life expectancy of Decussate fish usually ranges from 10 to 15 years under appropriate care and conditions. Water quality, nutrition and genetic factors affect their life expectancy.",
+    "required_words": ["discus" , "fish", "lifespan"]
+  },
+
+  {
+    "response_type": "Betta fish",
+    "user_input": ["What", "is", "betta fish", "general characteristics "],
+    "bot_response": "Beta fish is a colorful and decorative freshwater fish with a long and thin body structure. It has a wide variety of colors. It prefers to live alone, is native to warm climates, feeds on high-protein feeds. Hiding places in aquariums are important. During the breeding periods, the males color and build nests. They need regular cleaning and balanced nutrition for a healthy life. It is a popular option for the home aquarium.",
+    "required_words": ["betta" , "fish", "general"]
+  },
+
+  {
+    "response_type": "Betta fish",
+    "user_input": ["What", "is", "betta fish", "lifespan"],
+    "bot_response": "The life expectancy of beta fish usually varies from 2 to 5 years, depending on the conditions of care. Dec. Proper care, clean water and a healthy diet affect this period. Jul.",
+    "required_words": ["betta" , "fish", "lifespan"]
+  },
+
+  {
+    "response_type": "Shark",
+    "user_input": ["What", "is", "shark", "general characteristics "],
+    "bot_response": "Pet sharks are usually fish kept by those interested in the aquarium hobby. They attract attention with their colorful and interesting structures. Attention should be paid to factors such as appropriate aquarium conditions, nutrition, social behavior and susceptibility to diseases. They provide aquarium owners with a fun observation experience, but they require care and responsibility.",
+    "required_words": ["shark", "general"]
+  },
+
+  {
+    "response_type": "Shark",
+    "user_input": ["What", "is", "shark", "lifespan"],
+    "bot_response": "The life expectancy of pet sharks varies depending on their species and conditions of care. They can usually live Decently for between 5 and 10 years under proper care. Large species live longer, while small species can live for a shorter time.",
+    "required_words": ["shark","lifespan"]
+  },
+
+  {
+    "response_type": "parrot fish",
+    "user_input": ["What", "is", "parrot fish", "general characteristics "],
+    "bot_response": "Parrotfish refers to cichlid fish, which usually have colorful and interesting body structures. They have bright shades of color and usually feed carnivorously. Attention should be paid to factors such as aquarium conditions, temperature, water quality and pH. They have reproductive abilities and can live healthily under proper care. It is one of the popular aquarium fish.",
+    "required_words": ["parrot" , "fish","general"]
+  },
+
+  {
+    "response_type": "parrot fish",
+    "user_input": ["What", "is", "parrot fish", "lifespan"],
+    "bot_response": "The life expectancy of Decapitated parrotfish varies on average from 10 to 15 years, depending on the conditions and species of care. Proper nutrition, clean water and regular care are important factors that affect their life expectancy.Jul.",
+    "required_words": ["parrot" , "fish","lifespan"]
+  },
+  {
+    "response_type": "Stingray",
+    "user_input": ["What", "is", "stingray", "general characteristics "],
+    "bot_response": "Stingray fish are fish with various shades of color, usually with flat and wide body structures. They live in saltwater or brakish aquatic aquariums. Their diet is usually herbivorous or omnivorous, and hiding places and suitable water conditions are important in their aquariums. Their social behavior varies from type to type, and some prefer to live in groups. Their reproductive behaviors and susceptibility to diseases also differ from species to species. It is an interesting and varied option for a home aquarium.",
+    "required_words": ["stingray","general"]
+  },
+
+  {
+    "response_type": "Stingray",
+    "user_input": ["What", "is", "stingray", "lifespan"],
+    "bot_response": "The life span of stingray fish varies depending on their species and care conditions. They can usually live between 5 and 15 years in a Decently cared for and healthy environment.",
+    "required_words": ["stingray","lifespan"]
+  },
+  {
+    "response_type": "Tetra fish",
+    "user_input": ["What", "is", "tetra fish", "general characteristics "],
+    "bot_response": "Tetra fish are small, elegant and colorful freshwater fish. They usually live in herds and have various shades of color. They prefer tropical waters and should have hiding places in plant aquariums. They are omnivorous feeders and can live in a healthy way when proper aquarium conditions are provided. It is one of the popular home aquarium fish due to its colors and vividness.",
+    "required_words": ["tetra" , "fish","general"]
+  },
+
+  {
+    "response_type": "Tetra fish",
+    "user_input": ["What", "is", "tetra fish", "lifespan"],
+    "bot_response": "The life expectancy of tetra fish usually ranges from 5 to 10 years. Dec. Proper care, healthy nutrition and clean water conditions can affect this period Jul.",
+    "required_words": ["tetra" , "fish","lifespan"]
+  },
+  {
+    "response_type": "Nightingale bird",
+    "user_input": ["What", "is", "nightingale bird", "general characteristics "],
+    "bot_response": "Nightingale birds are medium-sized birds known for their colorful feathers and powerful songs. There are usually different types found throughout the world. Their songs are melodic and they are widespread in various regions. Their diet is generally omnivorous, that is, they consume various nutrients such as fruits, insects, seeds and nectar. Nightingale species can be found in different geographical regions and also feed as domestic birds.",
+    "required_words": ["nightingale", "bird","general"]
+  },
+
+  {
+    "response_type": "Nightingale bird",
+    "user_input": ["What", "is", "nightingale bird", "lifespan"],
+    "bot_response": "The life expectancy of nightingale birds usually ranges from 5 to 10 years in their natural habitat. Dec. Domestic nightingale birds can live for longer periods of time under appropriate care and conditions.",
+    "required_words": ["nightingale" , "bird" ,"lifespan"]
+  },
+
+  {
+    "response_type": "Sultan parrot",
+    "user_input": ["What", "is", "sultan parrot", "general characteristics "],
+    "bot_response": "Sultan parrots are medium-sized, energetic parrots with colorful feathers. They are known for their good-natured, sociable and funny characters. They usually have feathers in white, black, orange, yellow and green colors. They are intelligent and trainable birds, they require proper care and attention. Their nutrition is usually provided with fruits, vegetables and parrot feeds. Reproduction is usually prevented when they are cared for as pets.",
+    "required_words": ["sultan", "parrot","general"]
+  },
+
+  {
+    "response_type": "Sultan parrot",
+    "user_input": ["What", "is", "sultan parrot", "lifespan"],
+    "bot_response": "The life expectancy of sultan parrots usually ranges from 20 to 30 years. Dec. With healthy care, proper nutrition and love, these parrots can have a long life.",
+    "required_words": ["sultan" , "parrot" ,"lifespan"]
+  },
+
+  {
+    "response_type": "Budgerigar",
+    "user_input": ["What", "is", "budgerigar", "general characteristics "],
+    "bot_response": "Budgerigars are small, colorful and energetic domestic birds. Social, loving and communication skills are developed. Since they are intelligent, they can receive basic education, and some of them can show the ability to speak. They are at an intermediate energy level and have a need to fly. Regular hair care, bathing and a healthy diet are important.",
+    "required_words": ["budgerigar","general"]
+  },
+
+  {
+    "response_type": "Budgerigar",
+    "user_input": ["What", "is", "budgerigar", "lifespan"],
+    "bot_response": "The life expectancy of lovebirds usually ranges from 5 to 10 years Dec. With proper care and a healthy diet, they can live longer.",
+    "required_words": ["budgerigar","lifespan"]
+  },
+
+  {
+    "response_type": "Jako",
+    "user_input": ["What", "is", "jako", "general characteristics "],
+    "bot_response": "Jako parrots are medium-sized parrots with colorful feathers and showy head feathers. They have an active, intelligent and social character. They are known for their melodic singing abilities. They require basic obedience training and regular maintenance. They need mental stimulation and physical exercise.",
+    "required_words": ["jako","general"]
+  },
+
+  {
+    "response_type": "Jako",
+    "user_input": ["What", "is", "jako", "lifespan"],
+    "bot_response": "The life expectancy of Deco birds usually ranges from 40 to 60 years. It is possible for them to live longer with proper care and a healthy diet.",
+    "required_words": ["jako","lifespan"]
+  },
+
+  {
+    "response_type": "Cockatoo",
+    "user_input": ["What", "is", "cockatoo", "general characteristics "],
+    "bot_response": "Cockatoo birds are usually large, fluffy and colorful birds. They are known for their high intelligence levels and social characters. There are different color variations such as white, pink, gray and black. They have the ability to imitate words and melodies, but some individuals can be stubborn. Their ability to make a loud noise, their need for social interaction and their long life are their prominent features",
+    "required_words": ["cockatoo","general"]
+  },
+
+  {
+    "response_type": "Cockatoo",
+    "user_input": ["What", "is", "cockatoo", "lifespan"],
+    "bot_response": "The life expectancy of cockatoo birds usually ranges from 40 to 60 years. Dec. With healthy care, proper nutrition and living conditions, these birds can have a long life.",
+    "required_words": ["cockatoo","lifespan"]
+  },
+  {
+    "response_type": "Conure",
+    "user_input": ["What", "is", "conure", "general characteristics "],
+    "bot_response": "Conure birds are medium-sized, brightly colored and social parrots. They have intelligent and educable characters. They are usually loud and loving birds. Their nutrition is provided by various seeds, fruits and vegetables. They are recommended to live in spacious cages or volleys and need regular social interaction. They can have a long life and form a strong bond with their owners.",
+    "required_words": ["conure","general"]
+  },
+  {
+    "response_type": "Conure",
+    "user_input": ["What", "is", "conure", "lifespan"],
+    "bot_response": "The life expectancy of conure birds usually ranges from 15 to 30 years. Dec. A healthy care, proper nutrition and living conditions support these birds to have a long life.",
+    "required_words": ["conure","lifespan"]
+  },  {
+    "response_type": "The Senegal parrot",
+    "user_input": ["What", "is", "The Senegal parrot", "general characteristics "],
+    "bot_response": "The Senegal parrot is a small parrot species that lives in Central and West Africa. It is about 23-24 cm long and usually has green upper feathers, yellow or orange lower feathers. They are intelligent and social animals, can be trained as pets and can be loving friends. Their diet usually consists of fruits, vegetables and seeds. Care as a pet requires regular veterinary checks and proper nutrition. Having fun with mind games and toys can help them live a healthy life.",
+    "required_words": ["The","Senegal","parrot","general"]
+  },
+
+
+
+  {
+    "response_type": "The Senegal parrot",
+    "user_input": ["What", "is", "The Senegal parrot", "lifespan"],
+    "bot_response": "The average life expectancy of Senegalese parrots ranges from 20 to 30 years. Dec. This period may increase with appropriate care and health measures.",
+    "required_words": ["The","Senegal","parrot","lifespan"]
+  },
+
+  {
+    "response_type": "Amazona parrots ",
+    "user_input": ["What", "is", "Amazona parrots ", "general characteristics "],
+    "bot_response": "Amazona parrots are medium-sized parrots with a variety of colors, usually living in the tropical regions of Central and South America. They are known as intelligent and trainable animals. Their diet usually includes fruits, vegetables, seeds and sometimes insects. They require proper care, a rich environment and regular veterinary checks. They can form strong bonds with their owners, and some species can develop speech abilities.",
+    "required_words": ["The","Senegal","parrot","general"]
+  },
+
+
+
+  {
+    "response_type": "Amazona parrots ",
+    "user_input": ["What", "is", "Amazona parrots ", "lifespan"],
+    "bot_response": "The average life expectancy of Amazona Decapitations ranges from 25 to 50 years. This period varies depending on the type of type and the care provided.",
+    "required_words": ["Amazona","parrots","lifespan"]
+  },
+
+ {
+    "response_type": "Canaries ",
+    "user_input": ["What", "is", "Canaries", "general characteristics "],
+    "bot_response": "Canaries are small and colorful birds. They are usually fed as pets and are known for their melodious crowing. They can be intelligent and sociable. Their nutrition is usually provided with seeds, fruits and vegetables. Clean water, proper cage and regular maintenance are important Jul to maintain their health. They are popular pet birds, but it is important to pay attention to their needs.",
+    "required_words": ["Canaries","general"]
+  },
+
+
+  {
+    "response_type": "Canaries",
+    "user_input": ["What", "is", "Canaries", "lifespan"],
+    "bot_response": "The average life expectancy of canaries varies from 7 to 10 years. Dec. This period may vary depending on the quality of care, genetic factors and general health status.",
+    "required_words": ["Canaries","lifespan"]
+  }
+]

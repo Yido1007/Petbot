@@ -69,7 +69,7 @@ class _CatAlbumState extends State<CatAlbum> {
                   title: "Russian Blue",
                 ),
                 AlbumImageItem(
-                  petImage1: "assets/cat/British1.jpg",
+                  petImage1: "assets/cat/British3.jpg",
                   petImage2: "assets/cat/British2.jpg",
                   title: "Brisith",
                 ),
