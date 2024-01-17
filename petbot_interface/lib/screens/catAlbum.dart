@@ -1,6 +1,7 @@
 // ignore_for_file: file_names, prefer_const_literals_to_create_immutables, prefer_const_constructors
 
 //Import widgets
+import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import '../widgets/albumImageItem.dart';
 import '../widgets/drawer.dart';
@@ -48,20 +49,32 @@ class _CatAlbumState extends State<CatAlbum> {
             child: Column(
               // Cats Image
               children: [
-                AlbumImageItem(
-                  petImage1: "assets/cat/sarman1.jpg",
-                  petImage2: "assets/cat/sarman2.jfif",
-                  title: "Sarman",
+                FadeInDown(
+                  duration: Duration(seconds: 1),
+                  animate: true,
+                  child: AlbumImageItem(
+                    petImage1: "assets/cat/sarman1.jpg",
+                    petImage2: "assets/cat/sarman2.jfif",
+                    title: "Sarman",
+                  ),
                 ),
-                AlbumImageItem(
-                  petImage1: "assets/cat/mainecoon1.jpg",
-                  petImage2: "assets/cat/mainecoon2.webp",
-                  title: "Maine Coon",
+                FadeInDown(
+                  duration: Duration(seconds: 2),
+                  animate: true,
+                  child: AlbumImageItem(
+                    petImage1: "assets/cat/mainecoon1.jpg",
+                    petImage2: "assets/cat/mainecoon2.webp",
+                    title: "Maine Coon",
+                  ),
                 ),
-                AlbumImageItem(
-                  petImage1: "assets/cat/scottish1.jfif",
-                  petImage2: "assets/cat/scottish2.jfif",
-                  title: "Scottish",
+                FadeInDown(
+                  duration: Duration(milliseconds: 3500),
+                  animate: true,
+                  child: AlbumImageItem(
+                    petImage1: "assets/cat/scottish1.jfif",
+                    petImage2: "assets/cat/scottish2.jfif",
+                    title: "Scottish",
+                  ),
                 ),
                 AlbumImageItem(
                   petImage1: "assets/cat/russianblue1.jfif",
