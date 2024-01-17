@@ -56,8 +56,8 @@ class SideMenu extends StatelessWidget {
                 Icons.settings_outlined,
                 color: Color.fromRGBO(96, 114, 116, 1),
               ),
-              title: "Settings",
-              onTap: () => Navigator.pushNamed(context, "/setting"),
+              title: "Contact",
+              onTap: () => Navigator.pushNamed(context, "/contact"),
             ),
             DrawerDownItem(
               icon: Icon(

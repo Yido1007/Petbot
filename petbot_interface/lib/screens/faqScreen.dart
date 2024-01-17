@@ -1,8 +1,9 @@
-// ignore_for_file: file_names, prefer_const_constructors, depend_on_referenced_packages, prefer_const_literals_to_create_immutables
+// ignore_for_file: file_names, prefer_const_constructors, depend_on_referenced_packages, prefer_const_literals_to_create_immutables, unused_element
 
 // All Import Files
 
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:accordion/accordion.dart';
 import 'package:accordion/controllers.dart';
 import 'package:get/get.dart';
@@ -202,68 +203,36 @@ class _FAQScreen extends State<FAQScreen> {
                 ],
               ),
             ),
-            // 3'rd FAQ
-            AccordionSection(
-              // Accordion start positon
-              isOpen: false,
-              // Header left icon
-              leftIcon:
-                  //Header left icon color
-                  const Icon(Icons.check_box_outlined, color: Colors.black),
-              // Header right icon
-              rightIcon: const Icon(
-                Icons.keyboard_arrow_down,
-                // Header right icon color
-                color: Colors.black,
-                size: 30,
-              ),
-              // Header Background Color
-              // Vertical
-              contentVerticalPadding: 50,
-              // Header title
-              header: const Text(
-                'What does this bot aim at',
-                // Header title style
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              content: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  // Opened body icon style
-                  const Icon(
-                    Icons.label_important_outline_rounded,
-                    color: Color.fromRGBO(96, 114, 116, 1),
-                    size: 50,
-                  ).paddingOnly(right: 20),
-                  const Flexible(
-                    // Main Text
-                    child: Row(
-                      children: [
-                        Column(
-                          children: [
-                            Text(
-                              "LinkedIn",
-                              style: TextStyle(
-                                color: Color.fromRGBO(10, 102, 194, 1),
-                                fontSize: 21,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                          ],
-                        )
-                      ],
-                    ),
-                  )
-                ],
-              ),
-            ),
           ],
         ),
       ),
     );
+  }
+}
+
+final Uri linkedin1 =
+    Uri.parse('https://www.linkedin.com/in/furkan-%C5%9Fanverdi-3ab811255/');
+
+final Uri linkedin2 =
+    Uri.parse('https://www.linkedin.com/in/mustafa-emre-doğan-44a95327a/');
+
+final Uri linkedin3 =
+    Uri.parse('https://www.linkedin.com/in/yigithan-ihsan-topcu/');
+
+Future<void> _launchUrl1() async {
+  if (!await launchUrl(linkedin1)) {
+    throw Exception('Could not launch $linkedin1');
+  }
+}
+
+Future<void> _launchUrl2() async {
+  if (!await launchUrl(linkedin1)) {
+    throw Exception('Could not launch $linkedin2');
+  }
+}
+
+Future<void> _launchUrl3() async {
+  if (!await launchUrl(linkedin1)) {
+    throw Exception('Could not launch $linkedin3');
   }
 }

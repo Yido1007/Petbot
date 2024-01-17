@@ -95,7 +95,7 @@ class _BirdAlbumState extends State<BirdAlbum> {
                 AlbumImageItem(
                   petImage1: "assets/bird/sultan1.jfif",
                   petImage2: "assets/bird/sultan2.jfif",
-                  title: "",
+                  title: "Sultan Parrot",
                 ),
               ],
             ),

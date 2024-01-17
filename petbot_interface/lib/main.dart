@@ -1,13 +1,13 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, deprecated_member_use
 
 import 'package:flutter/material.dart';
-import 'package:petbot_interface/screens/birdAlbum.dart';
-import 'package:petbot_interface/screens/fishAlbum.dart';
+import '/screens/birdAlbum.dart';
+import '/screens/contact.dart';
+import '/screens/fishAlbum.dart';
 import '/screens/catAlbum.dart';
 import '/screens/dogAlbum.dart';
 import '/screens/faqScreen.dart';
 import '/screens/homeScreen.dart';
-import '/screens/settingScreen.dart';
 import '/screens/welcomeScreen.dart';
 
 void main() {
@@ -30,8 +30,8 @@ class MyApp extends StatelessWidget {
         '/dogAlbum': (context) => DogAlbum(),
         '/fishAlbum': (context) => FishAlbum(),
         '/birdAlbum': (context) => BirdAlbum(),
-        '/setting': (context) => SettingScreen(),
         '/faq': (context) => FAQScreen(),
+        '/contact': (context) => ContactUs()
       },
       initialRoute: '/home',
       theme: ThemeData(
