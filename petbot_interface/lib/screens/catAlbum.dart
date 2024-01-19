@@ -1,7 +1,7 @@
 // ignore_for_file: file_names, prefer_const_literals_to_create_immutables, prefer_const_constructors
 
 //Import widgets
-import 'package:animate_do/animate_do.dart';
+
 import 'package:flutter/material.dart';
 import '../widgets/albumImageItem.dart';
 import '../widgets/drawer.dart';
@@ -49,69 +49,68 @@ class _CatAlbumState extends State<CatAlbum> {
             child: Column(
               // Cats Image
               children: [
-                FadeInDown(
-                  duration: Duration(seconds: 1),
-                  animate: true,
-                  child: AlbumImageItem(
-                    petImage1: "assets/cat/sarman1.jpg",
-                    petImage2: "assets/cat/sarman2.jfif",
-                    title: "Sarman",
-                  ),
-                ),
-                FadeInDown(
-                  duration: Duration(seconds: 2),
-                  animate: true,
-                  child: AlbumImageItem(
-                    petImage1: "assets/cat/mainecoon1.jpg",
-                    petImage2: "assets/cat/mainecoon2.webp",
-                    title: "Maine Coon",
-                  ),
-                ),
-                FadeInDown(
-                  duration: Duration(milliseconds: 3500),
-                  animate: true,
-                  child: AlbumImageItem(
-                    petImage1: "assets/cat/scottish1.jfif",
-                    petImage2: "assets/cat/scottish2.jfif",
-                    title: "Scottish",
-                  ),
+                AlbumImageItem(
+                  time: 600,
+                  petImage1: "assets/cat/sarman1.jpg",
+                  petImage2: "assets/cat/sarman2.jfif",
+                  title: "Sarman",
                 ),
                 AlbumImageItem(
+                  time: 800,
+                  petImage1: "assets/cat/mainecoon1.jpg",
+                  petImage2: "assets/cat/mainecoon2.webp",
+                  title: "Maine Coon",
+                ),
+                AlbumImageItem(
+                  time: 1000,
+                  petImage1: "assets/cat/scottish1.jfif",
+                  petImage2: "assets/cat/scottish2.jfif",
+                  title: "Scottish",
+                ),
+                AlbumImageItem(
+                  time: 1100,
                   petImage1: "assets/cat/russianblue1.jfif",
                   petImage2: "assets/cat/russianblue2.jfif",
                   title: "Russian Blue",
                 ),
                 AlbumImageItem(
+                  time: 1200,
                   petImage1: "assets/cat/British3.jpg",
                   petImage2: "assets/cat/British2.jpg",
                   title: "Brisith",
                 ),
                 AlbumImageItem(
+                  time: 1300,
                   petImage1: "assets/cat/iran1.webp",
                   petImage2: "assets/cat/iran2.jpg",
                   title: "Persian",
                 ),
                 AlbumImageItem(
+                  time: 1400,
                   petImage1: "assets/cat/siyam1.jpg",
                   petImage2: "assets/cat/siyam2.jpg",
                   title: "Siamese",
                 ),
                 AlbumImageItem(
+                  time: 1500,
                   petImage1: "assets/cat/tuxedo1.jfif",
                   petImage2: "assets/cat/tuxedo2.jfif",
                   title: "Tuxedo",
                 ),
                 AlbumImageItem(
+                  time: 1500,
                   petImage1: "assets/cat/tekir1.jfif",
                   petImage2: "assets/cat/tekir2.jfif",
                   title: "Tabby",
                 ),
                 AlbumImageItem(
+                  time: 1600,
                   petImage1: "assets/cat/calico.jfif",
                   petImage2: "assets/cat/calico2.jfif",
                   title: "Calico",
                 ),
                 AlbumImageItem(
+                  time: 1600,
                   petImage1: "assets/cat/bombay1.jfif",
                   petImage2: "assets/cat/bombay2.jfif",
                   title: "Bombay",

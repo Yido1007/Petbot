@@ -31,17 +31,34 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   sorgula() {
-    List<Map<String, dynamic>> responses = [];
+    Set<Map<String, dynamic>> responsesX = {};
 
-    responses.add({
+    responsesX.add({
       "msg": searchController.text,
       "me": true,
     });
 
+    var searchWords = searchController.text.split(' ');
+
     for (var element in petData) {
-      if ((element["user_input"].cast<String>())
-          .contains(searchController.text)) {
-        responses.add({
+      var p = element["user_input"].cast<String>();
+      var p2 = element["required_words"].cast<String>();
+
+      int matched = 0;
+      for (var t in searchWords) {
+        if (p.contains(t)) {
+          matched++;
+        }
+      }
+      int matched2 = 0;
+      for (var t in searchWords) {
+        if (p2.contains(t)) {
+          matched2++;
+        }
+      }
+
+      if (matched == searchWords.length && matched2 == p2.length) {
+        responsesX.add({
           "msg": element["bot_response"],
           "me": false,
         });
@@ -49,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
     }
     searchController.text = "";
     setState(() {
-      this.responses.addAll(responses);
+      this.responses.addAll(responsesX);
     });
   }
 
@@ -93,7 +110,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   itemCount: responses.length,
                   itemBuilder: (context, index) => BubbleSpecialThree(
                     text: responses[index]["msg"],
-                    color: Color(0xFFE8E8EE),
+                    color: Color.fromRGBO(250, 230, 183, 1),
                     tail: false,
                     isSender: responses[index]["me"],
                   ),
@@ -108,7 +125,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     padding: const EdgeInsets.all(13.0),
                     // Text field
                     child: TextField(
-                      onSubmitted: sorgula(),
                       // Text field cursor color
                       cursorColor: Color.fromRGBO(222, 208, 182, 1),
                       style: TextStyle(

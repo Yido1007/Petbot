@@ -39,6 +39,7 @@ dependencies:
   url_launcher: ^6.2.3
   chat_bubbles: ^1.5.0
   animate_do: ^3.1.2
+  flex_color_scheme: ^7.3.1
 
 dev_dependencies:
   flutter_test:
