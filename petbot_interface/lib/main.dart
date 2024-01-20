@@ -1,14 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, deprecated_member_use
 
 import 'package:flutter/material.dart';
-import '/screens/birdAlbum.dart';
-import '/screens/contact.dart';
-import '/screens/fishAlbum.dart';
-import '/screens/catAlbum.dart';
-import '/screens/dogAlbum.dart';
-import '/screens/faqScreen.dart';
-import '/screens/homeScreen.dart';
-import '/screens/welcomeScreen.dart';
+import 'core/routes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,16 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      routes: {
-        '/welcome': (context) => WelcomeScreen(),
-        '/home': (context) => HomeScreen(),
-        '/catAlbum': (context) => CatAlbum(),
-        '/dogAlbum': (context) => DogAlbum(),
-        '/fishAlbum': (context) => FishAlbum(),
-        '/birdAlbum': (context) => BirdAlbum(),
-        '/faq': (context) => FAQScreen(),
-        '/contact': (context) => ContactUs()
-      },
+      routes: routes,
       initialRoute: '/home',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),

@@ -104,6 +104,12 @@ class _CatAlbumState extends State<CatAlbum> {
                   title: "Tabby",
                 ),
                 AlbumImageItem(
+                  time: 1500,
+                  petImage1: "assets/cat/vancat1.jfif",
+                  petImage2: "assets/cat/vancat2.jfif",
+                  title: "Van Cat",
+                ),
+                AlbumImageItem(
                   time: 1600,
                   petImage1: "assets/cat/calico.jfif",
                   petImage2: "assets/cat/calico2.jfif",
