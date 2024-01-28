@@ -158,7 +158,13 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                 ),
-                IconButton(onPressed: sorgula, icon: Icon(Icons.send))
+                IconButton(
+                  onPressed: sorgula,
+                  icon: Icon(
+                    Icons.send,
+                    color: Color.fromRGBO(250, 230, 183, 1),
+                  ),
+                )
               ],
             ),
           ],

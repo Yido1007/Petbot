@@ -7,9 +7,9 @@
   },
   {
    "response_type":"Greeting",
-   "user_input": ["see you","goodbye","bye"],
+   "user_input": ["see","you"],
    "bot_response":"See you later!",
-   "required_words": []
+   "required_words": ["see","you"]
   },
   {
    "response_type":"Cats Question",
@@ -111,7 +111,7 @@
    "response_type":"Siamese Cat General",
    "user_input": ["siamese","cat","general","characteristics"],
    "bot_response":"Siamese cats are a cat breed that is elegant and slender, with a generally light-colored body pattern and dark spots. They attract attention with their large, blue eyes and loud meows. They are sensitive and social cats that are loyal to their owners. Even though they have short hair, they maintain their health with regular grooming and active games.",
-   "required_words": ["siamese","cat","general"]
+   "required_words": ["siamese","cat","general","characteristics"]
   },
   {
    "response_type":"Tuxedo Cat General",
@@ -164,7 +164,7 @@
   {
    "response_type":"what do cats eat",
    "user_input": ["what","cats","eat"],
-   "bot_response":"Cats eat:1-Cat Food: Quality cat food specially formulated for house cats can meet all their nutritional needs. A balanced combination between dry and wet cat food can be used.2-Balanced Nutrition: In addition to protein, your cat's diet should also include fats, vitamins and minerals. Commercial cat foods usually contain these nutrients in a balanced manner.3-Portion Control: It is important to exercise portion control appropriate to your cat's age, breed, weight and activity level. It's important to check your cat's weight regularly to prevent excess weight or weight loss.4-Delicious But Healthy Snacks: You can give your cat healthy snacks occasionally, but these should complement the main meals of cat food, and attention should be paid to weight control.",
+   "bot_response":"Cats eat:\n1-Cat Food: Quality cat food specially formulated for house cats can meet all their nutritional needs. A balanced combination between dry and wet cat food can be used.\n2-Balanced Nutrition: In addition to protein, your cat's diet should also include fats, vitamins and minerals. Commercial cat foods usually contain these nutrients in a balanced manner.\n3-Portion Control: It is important to exercise portion control appropriate to your cat's age, breed, weight and activity level. It's important to check your cat's weight regularly to prevent excess weight or weight loss.\n4-Delicious But Healthy Snacks: You can give your cat healthy snacks occasionally, but these should complement the main meals of cat food, and attention should be paid to weight control.",
    "required_words": ["what","cats","eat"]
   },
   {
@@ -367,9 +367,9 @@
   },  
   {
    "response_type":"Fish question",
-   "user_input": ["what","is","fish","types"],
+   "user_input": ["what","are","fish","types"],
    "bot_response":"Fishs are: 1-neon tetra, 2-clownfish, 3-goldfish, 4-guppy, 5-yellow princess, 6-nemo, 7-angelfish, 8-scavenger fish,9- discus fish, 10-betta fish, 11-shark, 12-parrot fish, 13-stingray, 14-tetra fish",
-   "required_words": ["what","fish","types"]
+   "required_words": ["what","are","fish","types"]
   },
   {
    "response_type":"what do fish eat",
@@ -563,7 +563,7 @@
   {
     "response_type":"Bird Question",
     "user_input": ["what","are","bird","types"],
-    "bot_response":"Bird types are: 1-nightingale, 2-sultan parrot, 3-budgerigar, 4-jako, 5-cockatoo, 6-conure, 7-senegal parrot, 8-amazona parrot, 9-cannaries",
+    "bot_response":"Bird types are: 1-nightingale, 2-sultan parrot, \n3-budgerigar, 4-jako, 5-cockatoo, 6-conure, \n7-senegal parrot, 8-amazona parrot, 9-cannaries",
     "required_words": ["what","are","bird" ,"types"]
    },
    {
@@ -687,5 +687,30 @@
    "user_input": ["canaries","lifespan"],
    "bot_response":"The average life expectancy of canaries varies from 7 to 10 years. Dec. This period may vary depending on the quality of care, genetic factors and general health status.",
    "required_words": ["canaries","lifespan"]
-  }
+  },
+  {
+    "response_type":"Dog diseases",
+    "user_input": ["common","dog","diseases"],
+    "bot_response":"1. Parvovirus Infection: Serious viral disease affecting the intestines, diarrhea, vomiting, loss of appetite.\n2. Diarrhea (Salmonella, Campylobacter, etc.): Frequent diarrhea caused by bacterial infections.\n3. Rabies: A deadly viral infection that can be transmitted through a bite.\n4. Respiratory Tract Infections (Bordetella, Parainfluenza, etc.): Runny nose, cough, sneezing.\n5. Heart Worms: Disease caused by worms living in the arteries of the heart and lungs.\n6. Lyme Disease: Infection caused by the Borrelia bacteria carried by ticks, joint swelling.\n7. Hepatitis (Adenovirus Infection): Viral infection, weakness, vomiting, fever.\n8. Hydatid Cyst Disease: Parasitic disease caused by the Echinococcus parasite.\n9. Brucellosis: Bacterial infection caused by the bacterium Brucella, fever, swelling of the joints.\n10. Giardia: Intestinal infection caused by the Giardia parasite, diarrhea, vomiting.",
+    "required_words": ["common","dog","diseases"]
+   },
+   {
+    "response_type":"Cat diseases",
+    "user_input": ["common","cat","diseases"],
+    "bot_response":"1. Upper Respiratory Tract Infections (UTI): May be caused by sneezing, coughing, runny nose, stress, or bacteria.\n2. Disaster (Panleukopenia): Loss of appetite, vomiting, diarrhea and high fever due to parvovirus.\n3. Feline Leukemia Virus (FeLV): Felis catus Leukemia virus can cause symptoms of loss of appetite, weight loss, anemia and cancer.\n4. Feline Immunodeficiency Virus (FIV): A virus that affects the immune system, fatigue, loss of appetite and frequent infections.\n5. Dental Problems: Problems such as gingivitis, tartar, bad breath, swelling or bleeding.\n6. High Blood Pressure (Hypertension): Can lead to eye damage, kidney problems, and neurological problems.\n7. Parasitic Infections: Internal parasites (worms) and external parasites (scales, ticks) can cause problems.\n8. Diabetes Mellitus: The inability of the pancreas to produce enough insulin can lead to excessive thirst, weight loss and increased appetite.\n9. Urinary System Problems: Problems such as urinary tract infections, kidney problems, difficulty urinating.\n10. Felis Catus Coronavirus (FIP): A deadly disease caused by the coronavirus, loss of appetite, weight loss and accumulation of fluid in the abdominal cavity.",
+    "required_words": ["common","cat","diseases"]
+   },
+   {
+    "response_type":"Fish diseases",
+    "user_input": ["common","fish","diseases"],
+    "bot_response":"1. Internal Parasitic Infections: Parasites in the internal organs that affect the digestive system.\n2. External Parasitic Infections:Parasites found on scales and fins.\n3. Ich (Ick): A parasitic disease that causes white spots, loss of scales and gill problems.\n 4. Columnaris Disease:It occurs with symptoms such as bacterial infection, white layer, fin rot.\n5. Saprolegnia (Water Mold: A fungus-like organism that can lead to skin and fin infections.\n6. Vibriosis:A bacterial infection caused by the bacterium Vibrionaceae.\n7. Black Spot Disease (Black Spot):A condition caused by Dactylogyrus and Gyrodactylus parasites.\n8. Red Spot Disease: The Myxobolus cerebralis parasite can cause red spots on fish.\n9. Canine Dental Disease (Henneguya salminicola): a disease caused by protozoa, swelling of the mouth and fins.\n10. Cyprinid Herpesvirus (Koi Herpesvirus):A viral disease that can cause gill and skin lesions.",
+    "required_words": ["common","fish","diseases"]
+   },
+   {
+    "response_type":"Bird diseases",
+    "user_input": ["common","bird","diseases"],
+    "bot_response":"1. Psittacosis (Avian Malaria): Infection caused by the bacterium Chlamydia psittaci, respiratory problems, diarrhea, hair loss.\n 2. Aspergillosis: Infection caused by the Aspergillus fungus, respiratory problems, cough, loss of appetite.\n 3. Polyomavirus Infection: Virus infection affecting young birds, abdominal bloating, bloody stools, hair loss.\n 4. Bleeding Bowel Disease: Escherichia coli (E. illness caused by coli) bacteria, bloody stools, loss of appetite.\n 5. Avian Pox (Avian Pox): Viral disease caused by poxvirus, nodules on feathers, edema, mouth lesions.\n 6. Candidiasis: Infection caused by the Candida albicans fungus, white plaques in the mouth, loss of appetite.\n 7. Newcastle Disease (NCD): Viral disease caused by Paramyxovirus, respiratory problems, nervous system disorders.\n 8. Fever in birds (PBFD): Disease thought to be caused by the circovirus, moulting, changes in the beak.\n9. Megabacteria Infection: Infection caused by the megabacteria fungus, loss of appetite, weight loss.\n10. Wing and Leg Disease (Splay Leg): Leg position abnormality in baby birds due to nutritional deficiencies or genetic factors.",
+    "required_words": ["common","bird","diseases"]
+   }
+ 
 ]

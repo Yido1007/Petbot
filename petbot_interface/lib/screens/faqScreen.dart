@@ -189,13 +189,62 @@ class _FAQScreen extends State<FAQScreen> {
                           // Quesiton 2
                           TextSpan(
                             text:
-                                "what are the general characteristic features",
+                                "what are the general characteristic features.",
                             style: TextStyle(
                               color: Color.fromRGBO(154, 59, 59, 1),
                               fontSize: 21,
                               fontWeight: FontWeight.bold,
                             ),
-                          )
+                          ),
+                          // Quesiton 3
+                          TextSpan(
+                            text: 'Thirdly,',
+                            style: TextStyle(
+                              color: Color.fromRGBO(96, 114, 116, 1),
+                              fontSize: 21,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          TextSpan(
+                            text: "common diseases",
+                            style: TextStyle(
+                              color: Color.fromRGBO(154, 59, 59, 1),
+                              fontSize: 21,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          TextSpan(
+                            text: 'Forthly,',
+                            style: TextStyle(
+                              color: Color.fromRGBO(96, 114, 116, 1),
+                              fontSize: 21,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          TextSpan(
+                            text: "what are pet types",
+                            style: TextStyle(
+                              color: Color.fromRGBO(154, 59, 59, 1),
+                              fontSize: 21,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          TextSpan(
+                            text: 'Fifthly,',
+                            style: TextStyle(
+                              color: Color.fromRGBO(96, 114, 116, 1),
+                              fontSize: 21,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          TextSpan(
+                            text: "What pets eat",
+                            style: TextStyle(
+                              color: Color.fromRGBO(154, 59, 59, 1),
+                              fontSize: 21,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
                         ],
                       ),
                     ),
