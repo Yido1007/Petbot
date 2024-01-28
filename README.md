@@ -9,7 +9,7 @@
 
 # THE PURPOSE OF THE PROJECT
 A mobile application where we can access practical information for our animal friends that we want to feed at home or that we feed at home.
-Method of Use
+# Method of use
 Our mobile application answers basic questions about the common breeds of cats, dogs, fish and birds that are fed at home today.
 
 1- The first of these questions is about their general characteristic features.
@@ -48,3 +48,16 @@ In this question, the general diseases and disease symptoms of the species are i
 common + kind + diseases. Having a use in the form of
 
 These kinds are: Dog, cat, bird, fish
+
+# Albums
+
+![6](https://github.com/Yido1007/Petbot/assets/90920588/a5e6f004-114e-402f-8e57-3e94b0eaa235)
+
+
+![7](https://github.com/Yido1007/Petbot/assets/90920588/5e2234ea-5a02-41a1-bab0-0ecf755d14ba)
+
+
+![8](https://github.com/Yido1007/Petbot/assets/90920588/b35fcc6d-7cd4-4303-bc84-3ef79aee96ef)
+
+
+![9](https://github.com/Yido1007/Petbot/assets/90920588/a793e149-600b-4120-816f-bca2551ae16c)
