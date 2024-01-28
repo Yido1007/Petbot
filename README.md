@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 # PETBOT
 
 > Teammates
@@ -49,4 +48,3 @@ In this question, the general diseases and disease symptoms of the species are i
 common + kind + diseases. Having a use in the form of
 
 These kinds are: Dog, cat, bird, fish
->>>>>>> 2b7ea4369e598fd2fe9af4266ebe27c92524a9c7
