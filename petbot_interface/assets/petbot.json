@@ -30,8 +30,8 @@
    "required_words": ["british","shorthair" ,"general","characteristics"]
   },
   {
-   "response_type":"Scottish Fold Lifespan",
-   "user_input": ["scottish" ,"fold","lifespan"],
+   "response_type":"scottish fold lifespan",
+   "user_input": ["scottish","fold","lifespan"],
    "bot_response":"On average, these cats live to be 11/15 years old. This number can be affected by many factors such as your cat's living environment, their daily health and exercise routine, and whether they have any pre-existing health conditions.",
    "required_words": ["scottish","fold" ,"lifespan"]
   },
@@ -79,19 +79,19 @@
   },
   {
    "response_type":"Turkish Van Cat Lifespan",
-   "user_input": ["general","characteristics"],
+   "user_input": ["turkish","van","cat","lifespan"],
    "bot_response":"The Turkish Van cat lifespan is normal for many cat breeds. They live an average of 12 to 17 years. This means you should be prepared for a long life with your pet before adopting one.",
-   "required_words": ["van","cat" ,"lifespan"]
+   "required_words": ["van","cat" ,"lifespan"]  
   },
   {
-   "response_type":" Turkish Van Cat General",
-   "user_input": ["van","cat","general","characteristics"],
+   "response_type":"Turkish Van Cat General",
+   "user_input": ["turkish","van","cat","general","characteristics"],
    "bot_response":"Van cat is a cat breed known for its white color, special 'Van pattern'. He has big, blue eyes. He is smart, energetic and enjoys playing with water. It has medium to large sizes and a slim build. Social and compatible with other pets. Fur care is limited to combing.",
    "required_words": ["van","cat" ,"general","characteristics"]
   },
   {
    "response_type":"Bombay General",
-   "user_input": ["bombay cat","general","characteristics"],
+   "user_input": ["bombay","cat","general","characteristics"],
    "bot_response":"Bombay cats are a breed known for their black fur and bright green eyes. They are medium-sized, muscular, friendly and social cats. Although it has short hair, it requires regular grooming. They are known for their playful nature and ability to get along well with children. They are healthy and loving house cats.",
    "required_words": ["bombay","cat" ,"general","characteristics"]
   },
@@ -127,7 +127,7 @@
   },
   {
    "response_type":"Tabby Lifespan",
-   "user_input": [" tabby","lifespan"],
+   "user_input": ["tabby","lifespan"],
    "bot_response":"The average lifespan of the tabby cat breed is around 15 to 20 years.",
    "required_words": ["tabby" ,"lifespan"]
   },
@@ -402,315 +402,314 @@
    "required_words": ["clownfish","lifespan"]
   },
   {
-   "response_type":"Goldfish",
-   "user_input": ["goldfish","general","characteristics"],
-   "bot_response":"Goldfish are colorful and decorative freshwater fish. They come in a variety of species and colors, they are especially noted for their long, rounded tails. Clean water, proper filtration and special feeds are important for aquarium maintenance.Jul. They are social creatures and can be kept in harmonious groups. They may be prone to procreation and may be prone to some health problems. They can live in a healthy way with good care and regular observation.",
-   "required_words": ["goldfish","general","characteristics"]
-  },
-  {
-   "response_type":"Goldfish",
-   "user_input": ["goldfish","lifespan"],
-   "bot_response":"The lifespan of goldfish usually ranges from 6 to 10 years. Dec. This period depends on many factors such as health, care, genetic factors and water conditions. Fish that live under good care and favorable conditions can live healthily for longer.",
-   "required_words": ["goldfish","lifespan"]
-  },
-  {
-   "response_type":"Guppy",
-   "user_input": ["guppy","general","characteristics"],
-   "bot_response":"Guppy fish is a small, hardy and colorful freshwater fish. It is native to Mexico and Central America. It has various colors and patterns. Exhibits a peaceful and social behavior. He has the ability to reproduce quickly. Balanced water conditions and proper nutrition are important in aquarium maintenance. It is popular for both beginners and experienced hobbyists.",
-   "required_words": ["guppy","general","characteristics"]
-  },
-  {
-   "response_type":"Guppy",
-   "user_input": ["guppy","lifespan"],
-   "bot_response":"The life expectancy of guppy fish usually ranges from 2 to 5 years. Dec. This period can be affected by healthy care, proper water conditions and nutrition.",
-   "required_words": ["guppy","lifespan"]
-  }
-  ,
-  {
-   "response_type":"Yellow Princess",
-   "user_input": ["yellow princess","general","characteristics"],
-   "bot_response":"The Yellow Princess Fish is a freshwater aquarium fish, usually belonging to the proportion species, with a golden yellow color and a round body. Their size can vary up to 15 cm. They exhibit a peaceful behavior, and proper care and nutrition are essential for a healthy life. They can breed under favorable conditions and are usually one of the preferred colorful fish in aquarium hobby.",
-   "required_words": ["yellow","princess","general","characteristics"]
-  },
-
-  {
-   "response_type":"Yellow Princess",
-   "user_input": ["yellow princess","lifespan"],
-   "bot_response":"The life expectancy of the yellow princess fish usually ranges from 5 to 10 years. Dec. This period can be affected by healthy care, proper water conditions and nutrition.",
-   "required_words": ["yellow","princess","lifespan"]
-  },
-  {
-   "response_type":"Nemo",
-   "user_input": ["nemo","general","characteristics"],
-   "bot_response":"Nemo fish is a colorful and small fish species. They live on coral reefs and are often in a symbiotic relationship with anemones. They are social creatures, live in groups and may consist of hierarchical groups consisting of one female and several males. They attract attention with their reproductive characteristics and colorful appearance. They gained wide popularity with the children's film 'Finding Nemo'.",
-   "required_words": ["nemo","general","characteristics"]
-  },
-
-  {
-   "response_type":"Nemo",
-   "user_input": ["nemo","lifespan"],
-   "bot_response":"The life expectancy of Nemo fish in the natural environment varies from 6 to 10 years. Dec. However, those who live in an aquarium environment usually live up to 3 to 5 years.",
-   "required_words": ["nemo","lifespan"]
-  },
-  {
-   "response_type":"Angelfish",
-   "user_input": ["angelfish","general","characteristics"],
-   "bot_response":"Angelfish is a species that is popular in the aquarium hobby. They are known for their beautiful colors and elegant structures. These fish, which live in the Amazon River basin, usually attract attention with their disc-shaped bodies. They should be fed in appropriate aquarium conditions and with a healthy diet. Angelfish usually show calm behavior, but they can be aggressive during breeding periods.",
-   "required_words": ["angelfish","general","characteristics"]
-  },
-  {
-   "response_type":"Angelfish",
-   "user_input": ["angelfish","lifespan"],
-   "bot_response":"The life expectancy of angelfish ranges from 8 to 12 years on average. Dec. December. Proper care, a healthy environment and regular check-ups can affect this period.",
-   "required_words": ["angelfish","lifespan"]
-  },
-
-  {
-   "response_type":"Scavenger fish",
-   "user_input": ["scavenger","fish","general","characteristics"],
-   "bot_response":"Scavenger fish is a peaceful and harmonious fish species that undertakes the task of cleaning the aquarium floor. They live in groups, scavenge food scraps and usually feed on live or frozen shrimp, flake bait. Scavenger fish are popular in the aquarium hobby and attract attention with their colorful appearance.",
-   "required_words": ["scavenger","fish","general"]
-  },
-
-  {
-   "response_type":"Scavenger fish",
-   "user_input": ["scavenger","fish","lifespan"],
-   "bot_response":"The life expectancy of scavenger fish varies on average from 5 to 10 years, depending on the care conditions and genetic factors. Dec. This period can be extended in a suitable aquarium environment and with healthy nutrition.",
-   "required_words": ["scavenger","fish","lifespan"]
-  },
-
-  {
-   "response_type":"Discus fish",
-   "user_input": ["discus","fish","general","characteristics"],
-   "bot_response":"Discus fish is a tropical freshwater fish belonging to the genus Symphysodon. It has a round and colorful body structure. They prefer large and high aquariums, have a social and peaceful structure. They require warm, clean water and a balanced diet. Jul. They are popular due to their variety of colors and elegant structures. They prefer to live in groups and exhibit special behaviors during breeding periods. Their maintenance requires care, so it is suitable for experienced aquarium hobbyists.",
-   "required_words": ["discus" ,"fish","general"]
-  },
-
-  {
-   "response_type":"Discus fish",
-   "user_input": ["discus","fish","lifespan"],
-   "bot_response":"The life expectancy of Decussate fish usually ranges from 10 to 15 years under appropriate care and conditions. Water quality, nutrition and genetic factors affect their life expectancy.",
-   "required_words": ["discus","fish","lifespan"]
-  },
-
-  {
-   "response_type":"Betta fish",
-   "user_input": ["betta","fish","general","characteristics"],
-   "bot_response":"Beta fish is a colorful and decorative freshwater fish with a long and thin body structure. It has a wide variety of colors. It prefers to live alone, is native to warm climates, feeds on high-protein feeds. Hiding places in aquariums are important. During the breeding periods, the males color and build nests. They need regular cleaning and balanced nutrition for a healthy life. It is a popular option for the home aquarium.",
-   "required_words": ["betta" ,"fish","general"]
-  },
-
-  {
-   "response_type":"Betta fish",
-   "user_input": ["betta","fish","lifespan"],
-   "bot_response":"The life expectancy of beta fish usually varies from 2 to 5 years, depending on the conditions of care. Dec. Proper care, clean water and a healthy diet affect this period. Jul.",
-   "required_words": ["betta" ,"fish","lifespan"]
-  },
-
-  {
-   "response_type":"Shark",
-   "user_input": ["shark","general","characteristics"],
-   "bot_response":"Pet sharks are usually fish kept by those interested in the aquarium hobby. They attract attention with their colorful and interesting structures. Attention should be paid to factors such as appropriate aquarium conditions, nutrition, social behavior and susceptibility to diseases. They provide aquarium owners with a fun observation experience, but they require care and responsibility.",
-   "required_words": ["shark","general","characteristics"]
-  },
-
-  {
-   "response_type":"Shark",
-   "user_input": ["shark","lifespan"],
-   "bot_response":"The life expectancy of pet sharks varies depending on their species and conditions of care. They can usually live Decently for between 5 and 10 years under proper care. Large species live longer, while small species can live for a shorter time.",
-   "required_words": ["shark","lifespan"]
-  },
-
-  {
-   "response_type":"parrot fish",
-   "user_input": ["parrot","fish","general","characteristics"],
-   "bot_response":"Parrotfish refers to cichlid fish, which usually have colorful and interesting body structures. They have bright shades of color and usually feed carnivorously. Attention should be paid to factors such as aquarium conditions, temperature, water quality and pH. They have reproductive abilities and can live healthily under proper care. It is one of the popular aquarium fish.",
-   "required_words": ["parrot","fish","general","characteristics"]
-  },
-
-  {
-   "response_type":"parrot fish",
-   "user_input": ["parrot","fish","lifespan"],
-   "bot_response":"The life expectancy of Decapitated parrotfish varies on average from 10 to 15 years, depending on the conditions and species of care. Proper nutrition, clean water and regular care are important factors that affect their life expectancy.Jul.",
-   "required_words": ["parrot","fish","lifespan"]
-  },
-  {
-   "response_type":"Stingray",
-   "user_input": ["stingray","general","characteristics"],
-   "bot_response":"Stingray fish are fish with various shades of color, usually with flat and wide body structures. They live in saltwater or brakish aquatic aquariums. Their diet is usually herbivorous or omnivorous, and hiding places and suitable water conditions are important in their aquariums. Their social behavior varies from type to type, and some prefer to live in groups. Their reproductive behaviors and susceptibility to diseases also differ from species to species. It is an interesting and varied option for a home aquarium.",
-   "required_words": ["stingray","general","characteristics"]
-  },
-
-  {
-   "response_type":"Stingray",
-   "user_input": ["stingray","lifespan"],
-   "bot_response":"The life span of stingray fish varies depending on their species and care conditions. They can usually live between 5 and 15 years in a Decently cared for and healthy environment.",
-   "required_words": ["stingray","lifespan"]
-  },
-  {
-   "response_type":"Tetra fish",
-   "user_input": ["tetra","fish","general","characteristics"],
-   "bot_response":"Tetra fish are small, elegant and colorful freshwater fish. They usually live in herds and have various shades of color. They prefer tropical waters and should have hiding places in plant aquariums. They are omnivorous feeders and can live in a healthy way when proper aquarium conditions are provided. It is one of the popular home aquarium fish due to its colors and vividness.",
-   "required_words": ["tetra" ,"fish","general","characteristics"]
-  },
-
-  {
-   "response_type":"Tetra fish",
-   "user_input": ["tetra", "fish","lifespan"],
-   "bot_response":"The life expectancy of tetra fish usually ranges from 5 to 10 years. Dec. Proper care, healthy nutrition and clean water conditions can affect this period Jul.",
-   "required_words": ["tetra" ,"fish","lifespan"]
-  },
-  {
-    "response_type":"Bird Question",
-    "user_input": ["what","are","bird","types"],
-    "bot_response":"Bird types are: 1-nightingale, 2-sultan parrot, \n3-budgerigar, 4-jako, 5-cockatoo, 6-conure, \n7-senegal parrot, 8-amazona parrot, 9-cannaries",
-    "required_words": ["what","are","bird" ,"types"]
+    "response_type":"Goldfish",
+    "user_input": ["goldfish","general","characteristics"],
+    "bot_response":"Goldfish are colorful and decorative freshwater fish. They come in a variety of species and colors, they are especially noted for their long, rounded tails. Clean water, proper filtration and special feeds are important for aquarium maintenance.Jul. They are social creatures and can be kept in harmonious groups. They may be prone to procreation and may be prone to some health problems. They can live in a healthy way with good care and regular observation.",
+    "required_words": ["goldfish","general","characteristics"]
    },
    {
-    "response_type":"what do bird eat",
-    "user_input": ["what","bird","eat"],
-    "bot_response":"Birds eat:1-Bird Feed: Ready-made feeds that meet basic nutritional needs.2-Fruits and Vegetables: Fresh fruits and vegetables such as apples, bananas, grapes, carrots. 3-Eggs and Cheese: Boiled eggs and grated low-fat cheese as protein sources. 4-Boiled Eggs and Spinach: Can provide calcium and minerals.5-Wholemeal Bread and Baked Goods: A small amount of wholemeal bread or baked goods. 6-Mineral Blocks and Bones: To meet the need for calcium. 7-Water: Always fresh drinking water.",
-    "required_words": ["what","bird","eat"]
-   },
-  {
-   "response_type":"Nightingale",
-   "user_input": ["nightingale","general","characteristics"],
-   "bot_response":"Nightingale birds are medium-sized birds known for their colorful feathers and powerful songs. There are usually different types found throughout the world. Their songs are melodic and they are widespread in various regions. Their diet is generally omnivorous, that is, they consume various nutrients such as fruits, insects, seeds and nectar. Nightingale species can be found in different geographical regions and also feed as domestic birds.",
-   "required_words": ["nightingale","general","characteristics"]
-  },
-  {
-   "response_type":"Nightingale bird",
-   "user_input": ["nightingale","lifespan"],
-   "bot_response":"The life expectancy of nightingale birds usually ranges from 5 to 10 years in their natural habitat. Dec. Domestic nightingale birds can live for longer periods of time under appropriate care and conditions.",
-   "required_words": ["nightingale","lifespan"]
-  },
-
-  {
-   "response_type":"Sultan parrot",
-   "user_input": ["sultan parrot","general","characteristics"],
-   "bot_response":"Sultan parrots are medium-sized, energetic parrots with colorful feathers. They are known for their good-natured, sociable and funny characters. They usually have feathers in white, black, orange, yellow and green colors. They are intelligent and trainable birds, they require proper care and attention. Their nutrition is usually provided with fruits, vegetables and parrot feeds. Reproduction is usually prevented when they are cared for as pets.",
-   "required_words": ["sultan","parrot","general","characteristics"]
-  },
-
-  {
-   "response_type":"Sultan parrot",
-   "user_input": ["sultan","parrot","lifespan"],
-   "bot_response":"The life expectancy of sultan parrots usually ranges from 20 to 30 years. Dec. With healthy care, proper nutrition and love, these parrots can have a long life.",
-   "required_words": ["sultan" ,"parrot" ,"lifespan"]
-  },
-
-  {
-   "response_type":"Budgerigar",
-   "user_input": ["budgerigar","general","characteristics"],
-   "bot_response":"Budgerigars are small, colorful and energetic domestic birds. Social, loving and communication skills are developed. Since they are intelligent, they can receive basic education, and some of them can show the ability to speak. They are at an intermediate energy level and have a need to fly. Regular hair care, bathing and a healthy diet are important.",
-   "required_words": ["budgerigar","general","characteristics"]
-  },
-
-  {
-   "response_type":"Budgerigar",
-   "user_input": ["budgerigar","lifespan"],
-   "bot_response":"The life expectancy of lovebirds usually ranges from 5 to 10 years Dec. With proper care and a healthy diet, they can live longer.",
-   "required_words": ["budgerigar","lifespan"]
-  },
-
-  {
-   "response_type":"Jako",
-   "user_input": ["jako","general","characteristics"],
-   "bot_response":"Jako parrots are medium-sized parrots with colorful feathers and showy head feathers. They have an active, intelligent and social character. They are known for their melodic singing abilities. They require basic obedience training and regular maintenance. They need mental stimulation and physical exercise.",
-   "required_words": ["jako","general","characteristics"]
-  },
-
-  {
-   "response_type":"Jako",
-   "user_input": ["jako","lifespan"],
-   "bot_response":"The life expectancy of Deco birds usually ranges from 40 to 60 years. It is possible for them to live longer with proper care and a healthy diet.",
-   "required_words": ["jako","lifespan"]
-  },
-
-  {
-   "response_type":"Cockatoo",
-   "user_input": ["cockatoo","general","characteristics"],
-   "bot_response":"Cockatoo birds are usually large, fluffy and colorful birds. They are known for their high intelligence levels and social characters. There are different color variations such as white, pink, gray and black. They have the ability to imitate words and melodies, but some individuals can be stubborn. Their ability to make a loud noise, their need for social interaction and their long life are their prominent features",
-   "required_words": ["cockatoo","general","characteristics"]
-  },
-
-  {
-   "response_type":"Cockatoo",
-   "user_input": ["cockatoo","lifespan"],
-   "bot_response":"The life expectancy of cockatoo birds usually ranges from 40 to 60 years. Dec. With healthy care, proper nutrition and living conditions, these birds can have a long life.",
-   "required_words": ["cockatoo","lifespan"]
-  },
-  {
-   "response_type":"Conure",
-   "user_input": ["conure","general","characteristics"],
-   "bot_response":"Conure birds are medium-sized, brightly colored and social parrots. They have intelligent and educable characters. They are usually loud and loving birds. Their nutrition is provided by various seeds, fruits and vegetables. They are recommended to live in spacious cages or volleys and need regular social interaction. They can have a long life and form a strong bond with their owners.",
-   "required_words": ["conure","general","characteristics"]
-  },
-  {
-   "response_type":"Conure",
-   "user_input": ["conure","lifespan"],
-   "bot_response":"The life expectancy of conure birds usually ranges from 15 to 30 years. Dec. A healthy care, proper nutrition and living conditions support these birds to have a long life.",
-   "required_words": ["conure","lifespan"]
-  },  {
-   "response_type":"The Senegal parrot",
-   "user_input": ["senegal parrot","general","characteristics"],
-   "bot_response":"The Senegal parrot is a small parrot species that lives in Central and West Africa. It is about 23-24 cm long and usually has green upper feathers, yellow or orange lower feathers. They are intelligent and social animals, can be trained as pets and can be loving friends. Their diet usually consists of fruits, vegetables and seeds. Care as a pet requires regular veterinary checks and proper nutrition. Having fun with mind games and toys can help them live a healthy life.",
-   "required_words": ["senegal","parrot","general","characteristics"]
-  },
-
-  {
-   "response_type":"The Senegal parrot",
-   "user_input": ["senegal parrot","lifespan"],
-   "bot_response":"The average life expectancy of Senegalese parrots ranges from 20 to 30 years. Dec. This period may increase with appropriate care and health measures.",
-   "required_words": ["senegal","parrot","lifespan"]
-  },
-  {
-   "response_type":"Amazona parrots",
-   "user_input": ["amazona","parrots","general","characteristics"],
-   "bot_response":"Amazona parrots are medium-sized parrots with a variety of colors, usually living in the tropical regions of Central and South America. They are known as intelligent and trainable animals. Their diet usually includes fruits, vegetables, seeds and sometimes insects. They require proper care, a rich environment and regular veterinary checks. They can form strong bonds with their owners, and some species can develop speech abilities.",
-   "required_words": ["amazon","parrot","general","characteristics"]
-  },
-  {
-   "response_type":"Amazona parrots",
-   "user_input": ["amazona","parrots","lifespan"],
-   "bot_response":"The average life expectancy of Amazona Decapitations ranges from 25 to 50 years. This period varies depending on the type of type and the care provided.",
-   "required_words": ["amazona","parrots","lifespan"]
-  },
- {
-   "response_type":"Canaries",
-   "user_input": ["canaries","general","characteristics"],
-   "bot_response":"Canaries are small and colorful birds. They are usually fed as pets and are known for their melodious crowing. They can be intelligent and sociable. Their nutrition is usually provided with seeds, fruits and vegetables. Clean water, proper cage and regular maintenance are important Jul to maintain their health. They are popular pet birds, but it is important to pay attention to their needs.",
-   "required_words": ["canaries","general","characteristics"]
-  },
-  {
-   "response_type":"Canaries",
-   "user_input": ["canaries","lifespan"],
-   "bot_response":"The average life expectancy of canaries varies from 7 to 10 years. Dec. This period may vary depending on the quality of care, genetic factors and general health status.",
-   "required_words": ["canaries","lifespan"]
-  },
-  {
-    "response_type":"Dog diseases",
-    "user_input": ["common","dog","diseases"],
-    "bot_response":"1. Parvovirus Infection: Serious viral disease affecting the intestines, diarrhea, vomiting, loss of appetite.\n2. Diarrhea (Salmonella, Campylobacter, etc.): Frequent diarrhea caused by bacterial infections.\n3. Rabies: A deadly viral infection that can be transmitted through a bite.\n4. Respiratory Tract Infections (Bordetella, Parainfluenza, etc.): Runny nose, cough, sneezing.\n5. Heart Worms: Disease caused by worms living in the arteries of the heart and lungs.\n6. Lyme Disease: Infection caused by the Borrelia bacteria carried by ticks, joint swelling.\n7. Hepatitis (Adenovirus Infection): Viral infection, weakness, vomiting, fever.\n8. Hydatid Cyst Disease: Parasitic disease caused by the Echinococcus parasite.\n9. Brucellosis: Bacterial infection caused by the bacterium Brucella, fever, swelling of the joints.\n10. Giardia: Intestinal infection caused by the Giardia parasite, diarrhea, vomiting.",
-    "required_words": ["common","dog","diseases"]
+    "response_type":"Goldfish",
+    "user_input": ["goldfish","lifespan"],
+    "bot_response":"The lifespan of goldfish usually ranges from 6 to 10 years. Dec. This period depends on many factors such as health, care, genetic factors and water conditions. Fish that live under good care and favorable conditions can live healthily for longer.",
+    "required_words": ["goldfish","lifespan"]
    },
    {
-    "response_type":"Cat diseases",
-    "user_input": ["common","cat","diseases"],
-    "bot_response":"1. Upper Respiratory Tract Infections (UTI): May be caused by sneezing, coughing, runny nose, stress, or bacteria.\n2. Disaster (Panleukopenia): Loss of appetite, vomiting, diarrhea and high fever due to parvovirus.\n3. Feline Leukemia Virus (FeLV): Felis catus Leukemia virus can cause symptoms of loss of appetite, weight loss, anemia and cancer.\n4. Feline Immunodeficiency Virus (FIV): A virus that affects the immune system, fatigue, loss of appetite and frequent infections.\n5. Dental Problems: Problems such as gingivitis, tartar, bad breath, swelling or bleeding.\n6. High Blood Pressure (Hypertension): Can lead to eye damage, kidney problems, and neurological problems.\n7. Parasitic Infections: Internal parasites (worms) and external parasites (scales, ticks) can cause problems.\n8. Diabetes Mellitus: The inability of the pancreas to produce enough insulin can lead to excessive thirst, weight loss and increased appetite.\n9. Urinary System Problems: Problems such as urinary tract infections, kidney problems, difficulty urinating.\n10. Felis Catus Coronavirus (FIP): A deadly disease caused by the coronavirus, loss of appetite, weight loss and accumulation of fluid in the abdominal cavity.",
-    "required_words": ["common","cat","diseases"]
+    "response_type":"Guppy",
+    "user_input": ["guppy","general","characteristics"],
+    "bot_response":"Guppy fish is a small, hardy and colorful freshwater fish. It is native to Mexico and Central America. It has various colors and patterns. Exhibits a peaceful and social behavior. He has the ability to reproduce quickly. Balanced water conditions and proper nutrition are important in aquarium maintenance. It is popular for both beginners and experienced hobbyists.",
+    "required_words": ["guppy","general","characteristics"]
    },
    {
-    "response_type":"Fish diseases",
-    "user_input": ["common","fish","diseases"],
-    "bot_response":"1. Internal Parasitic Infections: Parasites in the internal organs that affect the digestive system.\n2. External Parasitic Infections:Parasites found on scales and fins.\n3. Ich (Ick): A parasitic disease that causes white spots, loss of scales and gill problems.\n 4. Columnaris Disease:It occurs with symptoms such as bacterial infection, white layer, fin rot.\n5. Saprolegnia (Water Mold: A fungus-like organism that can lead to skin and fin infections.\n6. Vibriosis:A bacterial infection caused by the bacterium Vibrionaceae.\n7. Black Spot Disease (Black Spot):A condition caused by Dactylogyrus and Gyrodactylus parasites.\n8. Red Spot Disease: The Myxobolus cerebralis parasite can cause red spots on fish.\n9. Canine Dental Disease (Henneguya salminicola): a disease caused by protozoa, swelling of the mouth and fins.\n10. Cyprinid Herpesvirus (Koi Herpesvirus):A viral disease that can cause gill and skin lesions.",
-    "required_words": ["common","fish","diseases"]
-   },
-   {
-    "response_type":"Bird diseases",
-    "user_input": ["common","bird","diseases"],
-    "bot_response":"1. Psittacosis (Avian Malaria): Infection caused by the bacterium Chlamydia psittaci, respiratory problems, diarrhea, hair loss.\n 2. Aspergillosis: Infection caused by the Aspergillus fungus, respiratory problems, cough, loss of appetite.\n 3. Polyomavirus Infection: Virus infection affecting young birds, abdominal bloating, bloody stools, hair loss.\n 4. Bleeding Bowel Disease: Escherichia coli (E. illness caused by coli) bacteria, bloody stools, loss of appetite.\n 5. Avian Pox (Avian Pox): Viral disease caused by poxvirus, nodules on feathers, edema, mouth lesions.\n 6. Candidiasis: Infection caused by the Candida albicans fungus, white plaques in the mouth, loss of appetite.\n 7. Newcastle Disease (NCD): Viral disease caused by Paramyxovirus, respiratory problems, nervous system disorders.\n 8. Fever in birds (PBFD): Disease thought to be caused by the circovirus, moulting, changes in the beak.\n9. Megabacteria Infection: Infection caused by the megabacteria fungus, loss of appetite, weight loss.\n10. Wing and Leg Disease (Splay Leg): Leg position abnormality in baby birds due to nutritional deficiencies or genetic factors.",
-    "required_words": ["common","bird","diseases"]
+    "response_type":"Guppy",
+    "user_input": ["guppy","lifespan"],
+    "bot_response":"The life expectancy of guppy fish usually ranges from 2 to 5 years. Dec. This period can be affected by healthy care, proper water conditions and nutrition.",
+    "required_words": ["guppy","lifespan"]
    }
+   ,
+   {
+    "response_type":"Yellow Princess",
+    "user_input": ["yellow","princess","general","characteristics"],
+    "bot_response":"The Yellow Princess Fish is a freshwater aquarium fish, usually belonging to the proportion species, with a golden yellow color and a round body. Their size can vary up to 15 cm. They exhibit a peaceful behavior, and proper care and nutrition are essential for a healthy life. They can breed under favorable conditions and are usually one of the preferred colorful fish in aquarium hobby.",
+    "required_words": ["yellow","princess","general","characteristics"]
+   },
  
+   {
+    "response_type":"Yellow Princess",
+    "user_input": ["yellow","princess","lifespan"],
+    "bot_response":"The life expectancy of the yellow princess fish usually ranges from 5 to 10 years. Dec. This period can be affected by healthy care, proper water conditions and nutrition.",
+    "required_words": ["yellow","princess","lifespan"]
+   },
+   {
+    "response_type":"Nemo",
+    "user_input": ["nemo","general","characteristics"],
+    "bot_response":"Nemo fish is a colorful and small fish species. They live on coral reefs and are often in a symbiotic relationship with anemones. They are social creatures, live in groups and may consist of hierarchical groups consisting of one female and several males. They attract attention with their reproductive characteristics and colorful appearance. They gained wide popularity with the children's film 'Finding Nemo'.",
+    "required_words": ["nemo","general","characteristics"]
+   },
+ 
+   {
+    "response_type":"Nemo",
+    "user_input": ["nemo","lifespan"],
+    "bot_response":"The life expectancy of Nemo fish in the natural environment varies from 6 to 10 years. Dec. However, those who live in an aquarium environment usually live up to 3 to 5 years.",
+    "required_words": ["nemo","lifespan"]
+   },
+   {
+    "response_type":"Angelfish",
+    "user_input": ["angelfish","general","characteristics"],
+    "bot_response":"Angelfish is a species that is popular in the aquarium hobby. They are known for their beautiful colors and elegant structures. These fish, which live in the Amazon River basin, usually attract attention with their disc-shaped bodies. They should be fed in appropriate aquarium conditions and with a healthy diet. Angelfish usually show calm behavior, but they can be aggressive during breeding periods.",
+    "required_words": ["angelfish","general","characteristics"]
+   },
+   {
+    "response_type":"Angelfish",
+    "user_input": ["angelfish","lifespan"],
+    "bot_response":"The life expectancy of angelfish ranges from 8 to 12 years on average. Dec. December. Proper care, a healthy environment and regular check-ups can affect this period.",
+    "required_words": ["angelfish","lifespan"]
+   },
+ 
+   {
+    "response_type":"Scavenger fish",
+    "user_input": ["scavenger","fish","general","characteristics"],
+    "bot_response":"Scavenger fish is a peaceful and harmonious fish species that undertakes the task of cleaning the aquarium floor. They live in groups, scavenge food scraps and usually feed on live or frozen shrimp, flake bait. Scavenger fish are popular in the aquarium hobby and attract attention with their colorful appearance.",
+    "required_words": ["scavenger","fish","general"]
+   },
+ 
+   {
+    "response_type":"Scavenger fish",
+    "user_input": ["scavenger","fish","lifespan"],
+    "bot_response":"The life expectancy of scavenger fish varies on average from 5 to 10 years, depending on the care conditions and genetic factors. Dec. This period can be extended in a suitable aquarium environment and with healthy nutrition.",
+    "required_words": ["scavenger","fish","lifespan"]
+   },
+ 
+   {
+    "response_type":"Discus fish",
+    "user_input": ["discus","fish","general","characteristics"],
+    "bot_response":"Discus fish is a tropical freshwater fish belonging to the genus Symphysodon. It has a round and colorful body structure. They prefer large and high aquariums, have a social and peaceful structure. They require warm, clean water and a balanced diet. Jul. They are popular due to their variety of colors and elegant structures. They prefer to live in groups and exhibit special behaviors during breeding periods. Their maintenance requires care, so it is suitable for experienced aquarium hobbyists.",
+    "required_words": ["discus" ,"fish","general"]
+   },
+ 
+   {
+    "response_type":"Discus fish",
+    "user_input": ["discus","fish","lifespan"],
+    "bot_response":"The life expectancy of Decussate fish usually ranges from 10 to 15 years under appropriate care and conditions. Water quality, nutrition and genetic factors affect their life expectancy.",
+    "required_words": ["discus","fish","lifespan"]
+   },
+ 
+   {
+    "response_type":"Betta fish",
+    "user_input": ["betta","fish","general","characteristics"],
+    "bot_response":"Beta fish is a colorful and decorative freshwater fish with a long and thin body structure. It has a wide variety of colors. It prefers to live alone, is native to warm climates, feeds on high-protein feeds. Hiding places in aquariums are important. During the breeding periods, the males color and build nests. They need regular cleaning and balanced nutrition for a healthy life. It is a popular option for the home aquarium.",
+    "required_words": ["betta" ,"fish","general"]
+   },
+ 
+   {
+    "response_type":"Betta fish",
+    "user_input": ["betta","fish","lifespan"],
+    "bot_response":"The life expectancy of beta fish usually varies from 2 to 5 years, depending on the conditions of care. Dec. Proper care, clean water and a healthy diet affect this period. Jul.",
+    "required_words": ["betta" ,"fish","lifespan"]
+   },
+ 
+   {
+    "response_type":"Shark",
+    "user_input": ["shark","general","characteristics"],
+    "bot_response":"Pet sharks are usually fish kept by those interested in the aquarium hobby. They attract attention with their colorful and interesting structures. Attention should be paid to factors such as appropriate aquarium conditions, nutrition, social behavior and susceptibility to diseases. They provide aquarium owners with a fun observation experience, but they require care and responsibility.",
+    "required_words": ["shark","general","characteristics"]
+   },
+ 
+   {
+    "response_type":"Shark",
+    "user_input": ["shark","lifespan"],
+    "bot_response":"The life expectancy of pet sharks varies depending on their species and conditions of care. They can usually live Decently for between 5 and 10 years under proper care. Large species live longer, while small species can live for a shorter time.",
+    "required_words": ["shark","lifespan"]
+   },
+ 
+   {
+    "response_type":"parrot fish",
+    "user_input": ["parrot","fish","general","characteristics"],
+    "bot_response":"Parrotfish refers to cichlid fish, which usually have colorful and interesting body structures. They have bright shades of color and usually feed carnivorously. Attention should be paid to factors such as aquarium conditions, temperature, water quality and pH. They have reproductive abilities and can live healthily under proper care. It is one of the popular aquarium fish.",
+    "required_words": ["parrot","fish","general","characteristics"]
+   },
+ 
+   {
+    "response_type":"parrot fish",
+    "user_input": ["parrot","fish","lifespan"],
+    "bot_response":"The life expectancy of Decapitated parrotfish varies on average from 10 to 15 years, depending on the conditions and species of care. Proper nutrition, clean water and regular care are important factors that affect their life expectancy.Jul.",
+    "required_words": ["parrot","fish","lifespan"]
+   },
+   {
+    "response_type":"Stingray",
+    "user_input": ["stingray","general","characteristics"],
+    "bot_response":"Stingray fish are fish with various shades of color, usually with flat and wide body structures. They live in saltwater or brakish aquatic aquariums. Their diet is usually herbivorous or omnivorous, and hiding places and suitable water conditions are important in their aquariums. Their social behavior varies from type to type, and some prefer to live in groups. Their reproductive behaviors and susceptibility to diseases also differ from species to species. It is an interesting and varied option for a home aquarium.",
+    "required_words": ["stingray","general","characteristics"]
+   },
+ 
+   {
+    "response_type":"Stingray",
+    "user_input": ["stingray","lifespan"],
+    "bot_response":"The life span of stingray fish varies depending on their species and care conditions. They can usually live between 5 and 15 years in a Decently cared for and healthy environment.",
+    "required_words": ["stingray","lifespan"]
+   },
+   {
+    "response_type":"Tetra fish",
+    "user_input": ["tetra","fish","general","characteristics"],
+    "bot_response":"Tetra fish are small, elegant and colorful freshwater fish. They usually live in herds and have various shades of color. They prefer tropical waters and should have hiding places in plant aquariums. They are omnivorous feeders and can live in a healthy way when proper aquarium conditions are provided. It is one of the popular home aquarium fish due to its colors and vividness.",
+    "required_words": ["tetra" ,"fish","general","characteristics"]
+   },
+ 
+   {
+    "response_type":"Tetra fish",
+    "user_input": ["tetra","fish","lifespan"],
+    "bot_response":"The life expectancy of tetra fish usually ranges from 5 to 10 years. Dec. Proper care, healthy nutrition and clean water conditions can affect this period Jul.",
+    "required_words": ["tetra" ,"fish","lifespan"]
+   },
+   {
+     "response_type":"Bird Question",
+     "user_input": ["what","are","bird","types"],
+     "bot_response":"Bird types are: 1-nightingale, 2-sultan parrot, \n3-budgerigar, 4-jako, 5-cockatoo, 6-conure, \n7-senegal parrot, 8-amazona parrot, 9-cannaries",
+     "required_words": ["what","are","bird" ,"types"]
+    },
+    {
+     "response_type":"what do bird eat",
+     "user_input": ["what","bird","eat"],
+     "bot_response":"Birds eat:1-Bird Feed: Ready-made feeds that meet basic nutritional needs.2-Fruits and Vegetables: Fresh fruits and vegetables such as apples, bananas, grapes, carrots. 3-Eggs and Cheese: Boiled eggs and grated low-fat cheese as protein sources. 4-Boiled Eggs and Spinach: Can provide calcium and minerals.5-Wholemeal Bread and Baked Goods: A small amount of wholemeal bread or baked goods. 6-Mineral Blocks and Bones: To meet the need for calcium. 7-Water: Always fresh drinking water.",
+     "required_words": ["what","bird","eat"]
+    },
+   {
+    "response_type":"Nightingale",
+    "user_input": ["nightingale","general","characteristics"],
+    "bot_response":"Nightingale birds are medium-sized birds known for their colorful feathers and powerful songs. There are usually different types found throughout the world. Their songs are melodic and they are widespread in various regions. Their diet is generally omnivorous, that is, they consume various nutrients such as fruits, insects, seeds and nectar. Nightingale species can be found in different geographical regions and also feed as domestic birds.",
+    "required_words": ["nightingale","general","characteristics"]
+   },
+   {
+    "response_type":"Nightingale bird",
+    "user_input": ["nightingale","lifespan"],
+    "bot_response":"The life expectancy of nightingale birds usually ranges from 5 to 10 years in their natural habitat. Dec. Domestic nightingale birds can live for longer periods of time under appropriate care and conditions.",
+    "required_words": ["nightingale","lifespan"]
+   },
+ 
+   {
+    "response_type":"Sultan parrot",
+    "user_input": ["sultan","parrot","general","characteristics"],
+    "bot_response":"Sultan parrots are medium-sized, energetic parrots with colorful feathers. They are known for their good-natured, sociable and funny characters. They usually have feathers in white, black, orange, yellow and green colors. They are intelligent and trainable birds, they require proper care and attention. Their nutrition is usually provided with fruits, vegetables and parrot feeds. Reproduction is usually prevented when they are cared for as pets.",
+    "required_words": ["sultan","parrot","general","characteristics"]
+   },
+ 
+   {
+    "response_type":"Sultan parrot",
+    "user_input": ["sultan","parrot","lifespan"],
+    "bot_response":"The life expectancy of sultan parrots usually ranges from 20 to 30 years. Dec. With healthy care, proper nutrition and love, these parrots can have a long life.",
+    "required_words": ["sultan" ,"parrot" ,"lifespan"]
+   },
+ 
+   {
+    "response_type":"Budgerigar",
+    "user_input": ["budgerigar","general","characteristics"],
+    "bot_response":"Budgerigars are small, colorful and energetic domestic birds. Social, loving and communication skills are developed. Since they are intelligent, they can receive basic education, and some of them can show the ability to speak. They are at an intermediate energy level and have a need to fly. Regular hair care, bathing and a healthy diet are important.",
+    "required_words": ["budgerigar","general","characteristics"]
+   },
+ 
+   {
+    "response_type":"Budgerigar",
+    "user_input": ["budgerigar","lifespan"],
+    "bot_response":"The life expectancy of lovebirds usually ranges from 5 to 10 years Dec. With proper care and a healthy diet, they can live longer.",
+    "required_words": ["budgerigar","lifespan"]
+   },
+ 
+   {
+    "response_type":"Jako",
+    "user_input": ["jako","general","characteristics"],
+    "bot_response":"Jako parrots are medium-sized parrots with colorful feathers and showy head feathers. They have an active, intelligent and social character. They are known for their melodic singing abilities. They require basic obedience training and regular maintenance. They need mental stimulation and physical exercise.",
+    "required_words": ["jako","general","characteristics"]
+   },
+ 
+   {
+    "response_type":"Jako",
+    "user_input": ["jako","lifespan"],
+    "bot_response":"The life expectancy of Deco birds usually ranges from 40 to 60 years. It is possible for them to live longer with proper care and a healthy diet.",
+    "required_words": ["jako","lifespan"]
+   },
+ 
+   {
+    "response_type":"Cockatoo",
+    "user_input": ["cockatoo","general","characteristics"],
+    "bot_response":"Cockatoo birds are usually large, fluffy and colorful birds. They are known for their high intelligence levels and social characters. There are different color variations such as white, pink, gray and black. They have the ability to imitate words and melodies, but some individuals can be stubborn. Their ability to make a loud noise, their need for social interaction and their long life are their prominent features",
+    "required_words": ["cockatoo","general","characteristics"]
+   },
+ 
+   {
+    "response_type":"Cockatoo",
+    "user_input": ["cockatoo","lifespan"],
+    "bot_response":"The life expectancy of cockatoo birds usually ranges from 40 to 60 years. Dec. With healthy care, proper nutrition and living conditions, these birds can have a long life.",
+    "required_words": ["cockatoo","lifespan"]
+   },
+   {
+    "response_type":"Conure",
+    "user_input": ["conure","general","characteristics"],
+    "bot_response":"Conure birds are medium-sized, brightly colored and social parrots. They have intelligent and educable characters. They are usually loud and loving birds. Their nutrition is provided by various seeds, fruits and vegetables. They are recommended to live in spacious cages or volleys and need regular social interaction. They can have a long life and form a strong bond with their owners.",
+    "required_words": ["conure","general","characteristics"]
+   },
+   {
+    "response_type":"Conure",
+    "user_input": ["conure","lifespan"],
+    "bot_response":"The life expectancy of conure birds usually ranges from 15 to 30 years. Dec. A healthy care, proper nutrition and living conditions support these birds to have a long life.",
+    "required_words": ["conure","lifespan"]
+   },  {
+    "response_type":"The Senegal parrot",
+    "user_input": ["senegal","parrot","general","characteristics"],
+    "bot_response":"The Senegal parrot is a small parrot species that lives in Central and West Africa. It is about 23-24 cm long and usually has green upper feathers, yellow or orange lower feathers. They are intelligent and social animals, can be trained as pets and can be loving friends. Their diet usually consists of fruits, vegetables and seeds. Care as a pet requires regular veterinary checks and proper nutrition. Having fun with mind games and toys can help them live a healthy life.",
+    "required_words": ["senegal","parrot","general","characteristics"]
+   },
+ 
+   {
+    "response_type":"The Senegal parrot",
+    "user_input": ["senegal","parrot","lifespan"],
+    "bot_response":"The average life expectancy of Senegalese parrots ranges from 20 to 30 years. Dec. This period may increase with appropriate care and health measures.",
+    "required_words": ["senegal","parrot","lifespan"]
+   },
+   {
+    "response_type":"Amazona parrots",
+    "user_input": ["amazona","parrots","general","characteristics"],
+    "bot_response":"Amazona parrots are medium-sized parrots with a variety of colors, usually living in the tropical regions of Central and South America. They are known as intelligent and trainable animals. Their diet usually includes fruits, vegetables, seeds and sometimes insects. They require proper care, a rich environment and regular veterinary checks. They can form strong bonds with their owners, and some species can develop speech abilities.",
+    "required_words": ["amazon","parrots","general","characteristics"]
+   },
+   {
+    "response_type":"Amazona parrots",
+    "user_input": ["amazona","parrots","lifespan"],
+    "bot_response":"The average life expectancy of Amazona Decapitations ranges from 25 to 50 years. This period varies depending on the type of type and the care provided.",
+    "required_words": ["amazona","parrots","lifespan"]
+   },
+  {
+    "response_type":"Canaries",
+    "user_input": ["canaries","general","characteristics"],
+    "bot_response":"Canaries are small and colorful birds. They are usually fed as pets and are known for their melodious crowing. They can be intelligent and sociable. Their nutrition is usually provided with seeds, fruits and vegetables. Clean water, proper cage and regular maintenance are important Jul to maintain their health. They are popular pet birds, but it is important to pay attention to their needs.",
+    "required_words": ["canaries","general","characteristics"]
+   },
+   {
+    "response_type":"Canaries",
+    "user_input": ["canaries","lifespan"],
+    "bot_response":"The average life expectancy of canaries varies from 7 to 10 years. Dec. This period may vary depending on the quality of care, genetic factors and general health status.",
+    "required_words": ["canaries","lifespan"]
+   },
+   {
+     "response_type":"Dog diseases",
+     "user_input": ["common","dog","diseases"],
+     "bot_response":"1. Parvovirus Infection: Serious viral disease affecting the intestines, diarrhea, vomiting, loss of appetite.\n2. Diarrhea (Salmonella, Campylobacter, etc.): Frequent diarrhea caused by bacterial infections.\n3. Rabies: A deadly viral infection that can be transmitted through a bite.\n4. Respiratory Tract Infections (Bordetella, Parainfluenza, etc.): Runny nose, cough, sneezing.\n5. Heart Worms: Disease caused by worms living in the arteries of the heart and lungs.\n6. Lyme Disease: Infection caused by the Borrelia bacteria carried by ticks, joint swelling.\n7. Hepatitis (Adenovirus Infection): Viral infection, weakness, vomiting, fever.\n8. Hydatid Cyst Disease: Parasitic disease caused by the Echinococcus parasite.\n9. Brucellosis: Bacterial infection caused by the bacterium Brucella, fever, swelling of the joints.\n10. Giardia: Intestinal infection caused by the Giardia parasite, diarrhea, vomiting.",
+     "required_words": ["common","dog","diseases"]
+    },
+    {
+     "response_type":"Cat diseases",
+     "user_input": ["common","cat","diseases"],
+     "bot_response":"1. Upper Respiratory Tract Infections (UTI): May be caused by sneezing, coughing, runny nose, stress, or bacteria.\n2. Disaster (Panleukopenia): Loss of appetite, vomiting, diarrhea and high fever due to parvovirus.\n3. Feline Leukemia Virus (FeLV): Felis catus Leukemia virus can cause symptoms of loss of appetite, weight loss, anemia and cancer.\n4. Feline Immunodeficiency Virus (FIV): A virus that affects the immune system, fatigue, loss of appetite and frequent infections.\n5. Dental Problems: Problems such as gingivitis, tartar, bad breath, swelling or bleeding.\n6. High Blood Pressure (Hypertension): Can lead to eye damage, kidney problems, and neurological problems.\n7. Parasitic Infections: Internal parasites (worms) and external parasites (scales, ticks) can cause problems.\n8. Diabetes Mellitus: The inability of the pancreas to produce enough insulin can lead to excessive thirst, weight loss and increased appetite.\n9. Urinary System Problems: Problems such as urinary tract infections, kidney problems, difficulty urinating.\n10. Felis Catus Coronavirus (FIP): A deadly disease caused by the coronavirus, loss of appetite, weight loss and accumulation of fluid in the abdominal cavity.",
+     "required_words": ["common","cat","diseases"]
+    },
+    {
+     "response_type":"Fish diseases",
+     "user_input": ["common","fish","diseases"],
+     "bot_response":"1. Internal Parasitic Infections: Parasites in the internal organs that affect the digestive system.\n2. External Parasitic Infections:Parasites found on scales and fins.\n3. Ich (Ick): A parasitic disease that causes white spots, loss of scales and gill problems.\n 4. Columnaris Disease:It occurs with symptoms such as bacterial infection, white layer, fin rot.\n5. Saprolegnia (Water Mold: A fungus-like organism that can lead to skin and fin infections.\n6. Vibriosis:A bacterial infection caused by the bacterium Vibrionaceae.\n7. Black Spot Disease (Black Spot):A condition caused by Dactylogyrus and Gyrodactylus parasites.\n8. Red Spot Disease: The Myxobolus cerebralis parasite can cause red spots on fish.\n9. Canine Dental Disease (Henneguya salminicola): a disease caused by protozoa, swelling of the mouth and fins.\n10. Cyprinid Herpesvirus (Koi Herpesvirus):A viral disease that can cause gill and skin lesions.",
+     "required_words": ["common","fish","diseases"]
+    },
+    {
+     "response_type":"Bird diseases",
+     "user_input": ["common","bird","diseases"],
+     "bot_response":"1. Psittacosis (Avian Malaria): Infection caused by the bacterium Chlamydia psittaci, respiratory problems, diarrhea, hair loss.\n 2. Aspergillosis: Infection caused by the Aspergillus fungus, respiratory problems, cough, loss of appetite.\n 3. Polyomavirus Infection: Virus infection affecting young birds, abdominal bloating, bloody stools, hair loss.\n 4. Bleeding Bowel Disease: Escherichia coli (E. illness caused by coli) bacteria, bloody stools, loss of appetite.\n 5. Avian Pox (Avian Pox): Viral disease caused by poxvirus, nodules on feathers, edema, mouth lesions.\n 6. Candidiasis: Infection caused by the Candida albicans fungus, white plaques in the mouth, loss of appetite.\n 7. Newcastle Disease (NCD): Viral disease caused by Paramyxovirus, respiratory problems, nervous system disorders.\n 8. Fever in birds (PBFD): Disease thought to be caused by the circovirus, moulting, changes in the beak.\n9. Megabacteria Infection: Infection caused by the megabacteria fungus, loss of appetite, weight loss.\n10. Wing and Leg Disease (Splay Leg): Leg position abnormality in baby birds due to nutritional deficiencies or genetic factors.",
+     "required_words": ["common","bird","diseases"]
+    }
 ]
