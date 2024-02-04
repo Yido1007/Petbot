@@ -111,7 +111,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   itemBuilder: (context, index) => BubbleSpecialThree(
                     text: responses[index]["msg"],
                     color: Color.fromRGBO(250, 230, 183, 1),
-                    tail: false,
+                    tail: true,
                     isSender: responses[index]["me"],
                   ),
                 ),
